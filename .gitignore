@@ -18,6 +18,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Large files (optional example)
+# Large files
 *.log
 *.sqlite3
