@@ -16,4 +16,11 @@ urlpatterns = [
         name='create_incident'
     ),
 
+    # Health Check Endpoint - Production Monitoring
+    path(
+        'health/',
+        views.health_check,
+        name='health_check'
+    ),
+
 ]

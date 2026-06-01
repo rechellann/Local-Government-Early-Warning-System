@@ -3,3 +3,27 @@ Django==5.2.14
 pillow==12.2.0
 sqlparse==0.5.5
 tzdata==2026.2
+
+# Environment Variable Security
+python-dotenv==1.0.1
+
+# Database Provisioning - PostgreSQL Dynamic Bindings
+dj-database-url==3.1.0
+psycopg2-binary==2.9.10
+
+# Static Assets & Cloud Media - WhiteNoise for Production
+whitenoise==6.7.0
+
+# Cloudinary Integration - Cloud Media Storage & CDN
+cloudinary==1.40.0
+django-cloudinary-storage==0.3.10
+
+# Production Security & CORS Management
+django-cors-headers==4.3.1
+
+# Caching & Performance - Redis Integration
+django-redis==5.4.0
+redis==5.0.1
+
+# WSGI Application Server for Production Deployment
+gunicorn==23.0.0
