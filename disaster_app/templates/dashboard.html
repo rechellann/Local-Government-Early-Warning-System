@@ -1,0 +1,625 @@
+{% extends 'base.html' %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+<script src="{% static 'js/dashboard.js' %}"></script>
+{% load disaster_tags %}
+
+{% block title %}
+Dashboard
+{% endblock %}
+
+{% block content %}
+
+
+
+<div class="dashboard-container">
+
+    <!-- PAGE HEADER -->
+
+    <div class="dashboard-header">
+
+        <div>
+
+            <h1 class="dashboard-title">
+                Dashboard
+            </h1>
+
+            <p class="dashboard-subtitle">
+                Overview of disaster monitoring and alerts
+            </p>
+
+        </div>
+
+        <div class="dashboard-actions">
+
+            <button class="btn btn-outline-primary">
+                <i class="bi bi-download"></i>
+                Export Report
+            </button>
+
+            <button class="btn btn-danger">
+                <i class="bi bi-megaphone-fill"></i>
+                Broadcast Alert
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- FILTERS -->
+
+    <div class="card filter-card shadow-sm">
+
+        <div class="card-body">
+
+            <div class="row g-3">
+
+                <div class="col-lg-3">
+
+                    <label class="form-label">
+                        Start Date
+                    </label>
+
+                    <input
+                        type="date"
+                        class="form-control"
+                        id="startDate">
+
+                </div>
+
+                <div class="col-lg-3">
+
+                    <label class="form-label">
+                        End Date
+                    </label>
+
+                    <input
+                        type="date"
+                        class="form-control"
+                        id="endDate">
+
+                </div>
+
+                <div class="col-lg-3">
+
+                    <label class="form-label">
+                        Status
+                    </label>
+
+                    <select
+                        class="form-select"
+                        id="statusFilter">
+
+                        <option value="">
+                            All Status
+                        </option>
+
+                        <option value="NORMAL">
+                            Normal
+                        </option>
+
+                        <option value="WARNING">
+                            Warning
+                        </option>
+
+                        <option value="CRITICAL">
+                            Critical
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="col-lg-3 d-flex align-items-end">
+
+                    <button
+                        class="btn btn-primary w-100"
+                        id="applyFilter">
+
+                        <i class="bi bi-funnel-fill"></i>
+                        Apply Filters
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- KPI CARDS -->
+
+    <div class="row g-4 mt-1">
+
+        <div class="col-lg-3">
+
+            <div class="card stat-card shadow-sm">
+
+                <div class="card-body">
+
+                    <div class="stat-top">
+
+                        <div class="icon-box pink">
+
+                            <i class="bi bi-file-earmark-medical"></i>
+
+                        </div>
+
+                    </div>
+
+                    <h6>Total Incidents</h6>
+
+                    <h2>
+                        {{ total_incidents|default:"128" }}
+                    </h2>
+
+                    <span class="text-danger">
+                        +12 this week
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3">
+
+            <div class="card stat-card shadow-sm">
+
+                <div class="card-body">
+
+                    <div class="icon-box yellow">
+
+                        <i class="bi bi-exclamation-triangle-fill"></i>
+
+                    </div>
+
+                    <h6>Active Alerts</h6>
+
+                    <h2>
+                        {{ active_alerts|default:"7" }}
+                    </h2>
+
+                    <span class="text-danger">
+                        2 Critical
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3">
+
+            <div class="card stat-card shadow-sm">
+
+                <div class="card-body">
+
+                    <div class="icon-box green">
+
+                        <i class="bi bi-broadcast"></i>
+
+                    </div>
+
+                    <h6>Sensors Online</h6>
+
+                    <h2>
+                        {{ sensors_online|default:"24" }}
+                    </h2>
+
+                    <span class="text-success">
+                        80% Active
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-3">
+
+            <div class="card stat-card shadow-sm">
+
+                <div class="card-body">
+
+                    <div class="icon-box blue">
+
+                        <i class="bi bi-people-fill"></i>
+
+                    </div>
+
+                    <h6>Affected Population</h6>
+
+                    <h2>3,450</h2>
+
+                    <span class="text-primary">
+                        +520 Today
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CHART + MAP -->
+
+    <div class="row mt-4">
+
+        <!-- INCIDENT CHART -->
+
+        <div class="col-lg-6">
+
+            <div class="card shadow-sm chart-card">
+
+                <div class="card-header bg-white">
+
+                    <h5>
+                        Incident Trends
+                        <small>(Last 7 Days)</small>
+                    </h5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="incidentChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- HAZARD MAP -->
+
+        <div class="col-lg-6">
+
+            <div class="card shadow-sm map-card">
+
+                <div class="card-header bg-white">
+
+                    <h5>
+                        Hazard Map
+                    </h5>
+
+                </div>
+
+                <div class="card-body p-0">
+
+                    <div id="hazardMap"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LOWER PANELS -->
+
+    <div class="row mt-4">
+
+        <!-- RECENT INCIDENTS -->
+
+        <div class="col-lg-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header bg-white">
+
+                    <div class="d-flex justify-content-between">
+
+                        <h5>Recent Incidents</h5>
+
+                        <a href="#">
+                            View All
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="incident-item">
+
+                        <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+
+                        <div>
+
+                            <strong>
+                                Flooding in Poblacion
+                            </strong>
+
+                            <small>
+                                Barangay Poblacion
+                            </small>
+
+                        </div>
+
+                        <span class="badge bg-danger">
+                            Critical
+                        </span>
+
+                    </div>
+
+                    <div class="incident-item">
+
+                        <i class="bi bi-exclamation-triangle-fill text-warning"></i>
+
+                        <div>
+
+                            <strong>
+                                Landslide Alert
+                            </strong>
+
+                            <small>
+                                Barangay San Jose
+                            </small>
+
+                        </div>
+
+                        <span class="badge bg-warning text-dark">
+                            Warning
+                        </span>
+
+                    </div>
+
+                    <div class="incident-item">
+
+                        <i class="bi bi-check-circle-fill text-success"></i>
+
+                        <div>
+
+                            <strong>
+                                River Level Stable
+                            </strong>
+
+                            <small>
+                                Barangay 88
+                            </small>
+
+                        </div>
+
+                        <span class="badge bg-success">
+                            Normal
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SENSOR STATUS -->
+
+        <div class="col-lg-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header bg-white">
+
+                    <div class="d-flex justify-content-between">
+
+                        <h5>Sensor Status</h5>
+
+                        <a href="#">
+                            View All
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="sensor-item">
+
+                        <div>
+                            River Monitor Sensor 1
+                        </div>
+
+                        <span class="badge bg-danger">
+                            Critical
+                        </span>
+
+                    </div>
+
+                    <div class="sensor-item">
+
+                        <div>
+                            Rainfall Sensor 2
+                        </div>
+
+                        <span class="badge bg-warning text-dark">
+                            Warning
+                        </span>
+
+                    </div>
+
+                    <div class="sensor-item">
+
+                        <div>
+                            Wind Sensor 1
+                        </div>
+
+                        <span class="badge bg-success">
+                            Normal
+                        </span>
+
+                    </div>
+
+                    <div class="sensor-item">
+
+                        <div>
+                            Soil Sensor 1
+                        </div>
+
+                        <span class="badge bg-success">
+                            Normal
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- RECENT ALERTS -->
+
+        <div class="col-lg-4">
+
+            <div class="card shadow-sm">
+
+                <div class="card-header bg-white">
+
+                    <div class="d-flex justify-content-between">
+
+                        <h5>Recent Alerts</h5>
+
+                        <a href="#">
+                            View All
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="card-body">
+
+                    <div class="alert-feed critical">
+
+                        <strong>
+                            Flood Warning
+                        </strong>
+
+                        <small>
+                            Issued 10 minutes ago
+                        </small>
+
+                    </div>
+
+                    <div class="alert-feed warning">
+
+                        <strong>
+                            Heavy Rainfall Warning
+                        </strong>
+
+                        <small>
+                            Issued 30 minutes ago
+                        </small>
+
+                    </div>
+
+                    <div class="alert-feed warning">
+
+                        <strong>
+                            Strong Wind Advisory
+                        </strong>
+
+                        <small>
+                            Issued 1 hour ago
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    // Chart.js
+
+    const ctx =
+    document.getElementById(
+    'incidentChart'
+    );
+
+    new Chart(ctx, {
+
+        type: 'line',
+
+        data: {
+
+            labels: [
+                'May 18',
+                'May 19',
+                'May 20',
+                'May 21',
+                'May 22',
+                'May 23',
+                'May 24'
+            ],
+
+            datasets: [{
+
+                label: 'Incidents',
+
+                data: [
+                    18,
+                    23,
+                    39,
+                    34,
+                    23,
+                    28,
+                    40
+                ],
+
+                tension: 0.4,
+
+                fill: true
+
+            }]
+
+        }
+
+    });
+
+    // Leaflet Map
+
+    const map =
+    L.map('hazardMap').setView(
+    [11.2433, 125.0040],
+    12
+    );
+
+    L.tileLayer(
+        'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+    ).addTo(map);
+
+    L.marker(
+    [11.2433,125.0040]
+    ).addTo(map);
+
+});
+
+</script>
+
+{% endblock %}
