@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: lgd-ews-backend
+    env: python
+    plan: starter
+    buildCommand: >
+      pip install -r requirements.txt &&
+      python manage.py collectstatic --noinput &&
+      python manage.py migrate
+    startCommand: gunicorn lgd_ews.wsgi:application
+    healthCheckPath: /api/health/
+    envVars:
+      - key: DEBUG
+        value: "False"
+      - key: ENVIRONMENT
+        value: production
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: SECRET_KEY
+        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: lgd-ews-db
+          property: connectionString
+      - key: CLOUDINARY_URL
+        sync: false
+      - key: ALLOWED_HOSTS
+        value: ".onrender.com"
+
+databases:
+  - name: lgd-ews-db
+    databaseName: lgd_ews_db
+    user: lgd_ews_user
+    region: ohio
+    ipAllowList:
+      - source: 0.0.0.0/0
+        description: Allow all

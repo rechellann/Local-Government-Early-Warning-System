@@ -1,0 +1,37 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "DOCKERFILE",
+    "buildCommand": "pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "startCommand": "gunicorn lgd_ews.wsgi:application --bind 0.0.0.0:$PORT",
+    "restartPolicy": "on_failure",
+    "healthchecks": {
+      "readiness": {
+        "initialDelaySeconds": 10,
+        "periodSeconds": 10,
+        "timeoutSeconds": 5,
+        "successThreshold": 1,
+        "failureThreshold": 3
+      }
+    }
+  },
+  "services": {
+    "database": {
+      "image": "postgres:16",
+      "environment": {
+        "POSTGRES_DB": "lgd_ews_db",
+        "POSTGRES_USER": "lgd_ews_user",
+        "POSTGRES_PASSWORD": "$POSTGRES_PASSWORD"
+      },
+      "volumes": [
+        {
+          "name": "postgres_data",
+          "mountPath": "/var/lib/postgresql/data"
+        }
+      ]
+    }
+  }
+}
