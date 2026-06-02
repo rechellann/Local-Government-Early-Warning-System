@@ -1408,3 +1408,20 @@ INFO 2026-06-02 18:52:55,242 autoreload C:\Users\Jessniemarie\Local-Government-D
 INFO 2026-06-02 18:52:56,630 autoreload Watching for file changes with StatReloader
 INFO 2026-06-02 18:52:56,644 autoreload Watching for file changes with StatReloader
 INFO 2026-06-02 18:53:18,464 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:53:56,481 basehttp "POST /api/token/ HTTP/1.1" 200 489
+INFO 2026-06-02 18:54:14,521 basehttp "POST /api/hazards/create/ HTTP/1.1" 201 242
+WARNING 2026-06-02 18:54:31,474 log Unauthorized: /api/hazards/
+WARNING 2026-06-02 18:54:31,474 basehttp "GET /api/hazards/ HTTP/1.1" 401 58
+WARNING 2026-06-02 18:54:48,845 log Unauthorized: /api/hazards/
+WARNING 2026-06-02 18:54:48,845 basehttp "GET /api/hazards/ HTTP/1.1" 401 58
+INFO 2026-06-02 18:56:40,606 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 18:57:00,404 log Unauthorized: /api/hazards/
+WARNING 2026-06-02 18:57:00,404 basehttp "GET /api/hazards/ HTTP/1.1" 401 172
+INFO 2026-06-02 18:59:54,949 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 19:00:23,526 log Unauthorized: /api/hazards/
+WARNING 2026-06-02 19:00:23,527 basehttp "GET /api/hazards/ HTTP/1.1" 401 172
+INFO 2026-06-02 19:00:27,357 basehttp "POST /api/hazards/create/ HTTP/1.1" 201 242
+INFO 2026-06-02 19:03:43,836 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 19:04:05,646 log Unauthorized: /api/hazards/
+WARNING 2026-06-02 19:04:05,646 basehttp "GET /api/hazards/ HTTP/1.1" 401 172
+INFO 2026-06-02 19:06:47,623 basehttp "GET /api/hazards/ HTTP/1.1" 200 394
