@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 from pathlib import Path
 from datetime import timedelta
 import environ
-import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -46,10 +45,15 @@ INSTALLED_APPS = [
     # Third-party apps
     'rest_framework',
     'rest_framework_simplejwt',
-    'cloudinary',
-    'cloudinary.storage',
     'axes',
 ]
+
+# Add cloudinary if available
+try:
+    import cloudinary
+    INSTALLED_APPS.append('cloudinary')
+except ImportError:
+    pass
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -88,13 +92,17 @@ WSGI_APPLICATION = 'lgd_ews.wsgi.application'
 
 # Use PostgreSQL in production, SQLite for development
 if env('DATABASE_URL', default='').startswith('postgres'):
-    DATABASES = {
-        'default': dj_database_url.config(
-            default=env('DATABASE_URL'),
-            conn_max_age=600,
-            conn_health_checks=True,
-        )
-    }
+    try:
+        import dj_database_url
+        DATABASES = {
+            'default': dj_database_url.config(
+                default=env('DATABASE_URL'),
+                conn_max_age=600,
+                conn_health_checks=True,
+            )
+        }
+    except ImportError:
+        raise ImportError('dj-database-url is required for PostgreSQL. Install with: pip install dj-database-url')
 else:
     DATABASES = {
         'default': {
@@ -148,10 +156,20 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 # Use Cloudinary for media storage in production
 if env('CLOUDINARY_URL', default=''):
-    DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+    try:
+        import cloudinary_storage
+        DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+    except ImportError:
+        pass
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Authentication Backends (for django-axes login protection)
+AUTHENTICATION_BACKENDS = [
+    'axes.backends.AxesStandaloneBackend',
+    'django.contrib.auth.backends.ModelBackend',
+]
 
 # REST Framework Configuration
 REST_FRAMEWORK = {
