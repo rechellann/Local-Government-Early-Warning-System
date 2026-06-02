@@ -9,7 +9,11 @@ class IncidentForm(forms.ModelForm):
 
     class Meta:
         model = Incident
-        fields = "__all__"
+        fields = (
+    "title",
+    "description",
+    "status",
+)
 
 
 HazardImageFormSet = inlineformset_factory(

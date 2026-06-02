@@ -1,5 +1,10 @@
 from django.db import models
+from django.contrib.auth.models import User
 
+
+# =========================================================
+# INCIDENT MODEL
+# =========================================================
 class Incident(models.Model):
 
     STATUS_CHOICES = (
@@ -10,19 +15,25 @@ class Incident(models.Model):
 
     title = models.CharField(max_length=200)
     description = models.TextField()
-    status = models.CharField(
-        max_length=20,
-        choices=STATUS_CHOICES
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES)
+
+    created_by = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='incidents',
+        null=True,
+        blank=True
     )
 
-    created_at = models.DateTimeField(
-        auto_now_add=True
-    )
+    created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.title
 
 
+# =========================================================
+# HAZARD IMAGE MODEL
+# =========================================================
 class HazardImage(models.Model):
 
     incident = models.ForeignKey(
@@ -31,10 +42,73 @@ class HazardImage(models.Model):
         related_name='images'
     )
 
-    image = models.ImageField(
-        upload_to='hazards/'
+    image = models.ImageField(upload_to='hazards/')
+    caption = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.caption
+
+
+# =========================================================
+# SENSOR DATA MODEL
+# =========================================================
+class SensorData(models.Model):
+
+    location = models.CharField(max_length=100)
+
+    water_level = models.FloatField()
+    rainfall = models.FloatField()
+    temperature = models.FloatField()
+
+    severity = models.CharField(
+        max_length=20,
+        choices=(
+            ('NORMAL', 'Normal'),
+            ('WARNING', 'Warning'),
+            ('CRITICAL', 'Critical'),
+        )
     )
 
-    caption = models.CharField(
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.location} - {self.severity}"
+
+
+# =========================================================
+# HAZARD REPORT MODEL
+# =========================================================
+class HazardReport(models.Model):
+
+    SEVERITY_CHOICES = (
+        ('LOW', 'Low'),
+        ('MEDIUM', 'Medium'),
+        ('HIGH', 'High'),
+        ('CRITICAL', 'Critical'),
+    )
+
+    title = models.CharField(max_length=200)
+
+    description = models.TextField()
+
+    location = models.CharField(
         max_length=255
     )
+
+    severity = models.CharField(
+        max_length=20,
+        choices=SEVERITY_CHOICES
+    )
+
+    reported_by = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='hazard_reports'
+    )
+
+    created_at = models.DateTimeField(
+        auto_now_add=True
+    )
+
+    def __str__(self):
+        return self.title

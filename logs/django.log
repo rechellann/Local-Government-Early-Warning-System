@@ -1,0 +1,1410 @@
+INFO 2026-06-02 13:51:38,173 autoreload 22088 1588 Watching for file changes with StatReloader
+INFO 2026-06-02 13:54:45,878 autoreload 22088 1588 C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-02 14:06:56,343 autoreload 10636 21012 Watching for file changes with StatReloader
+INFO 2026-06-02 14:11:13,014 autoreload 21860 16328 Watching for file changes with StatReloader
+INFO 2026-06-02 14:15:16,368 autoreload 21860 16328 C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-02 14:15:20,241 autoreload 19284 21660 Watching for file changes with StatReloader
+INFO 2026-06-02 14:15:42,051 autoreload 8248 10712 Watching for file changes with StatReloader
+INFO 2026-06-02 14:17:16,426 autoreload 19284 21660 C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-02 14:17:17,177 autoreload 10808 19780 Watching for file changes with StatReloader
+INFO 2026-06-02 14:18:35,786 autoreload 20992 14636 Watching for file changes with StatReloader
+INFO 2026-06-02 14:19:43,157 autoreload 20992 14636 C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\whitenoise\__init__.py changed, reloading.
+INFO 2026-06-02 14:19:43,845 autoreload 1908 12072 Watching for file changes with StatReloader
+INFO 2026-06-02 14:22:37,504 autoreload 14568 2064 Watching for file changes with StatReloader
+INFO 2026-06-02 14:22:41,480 basehttp 14568 12692 "GET / HTTP/1.1" 301 0
+INFO 2026-06-02 14:22:41,490 basehttp 14568 21300 code 400, message Bad request version ('ÐY\x16¾c\x92Eôröy©VàËæ¥´\x83Ú\x13U£´åP1¼F9B´Ï\x11\x82MX')
+ERROR 2026-06-02 14:22:41,491 basehttp 14568 21300 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:22:41,493 basehttp 14568 1512 code 400, message Bad request version ('\x97\x7fp9%^ènïJ\x14C±5ÂZÏr°\x17\x7fL`\x08ómr¡É×Ufa\x12U\x00¦~')
+ERROR 2026-06-02 14:22:41,493 basehttp 14568 1512 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:22:51,377 basehttp 14568 9760 "GET / HTTP/1.1" 301 0
+INFO 2026-06-02 14:22:52,177 basehttp 14568 15156 code 400, message Bad request version ('\x02Vñ©\x98\x87R[\x08\x84Î\x81+&\x90{')
+ERROR 2026-06-02 14:22:52,178 basehttp 14568 15156 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:22:52,183 basehttp 14568 3160 code 400, message Bad request version ('qEÀ\x9e')
+ERROR 2026-06-02 14:22:52,185 basehttp 14568 3160 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:22:55,322 basehttp 14568 20976 code 400, message Bad request version ('\x06IÑ\x7f¨ÅF\x0fáuÿ¶Uë\x00¸\x0e\x9fBó°w¿-úr¸S\x14f\x00')
+ERROR 2026-06-02 14:22:55,322 basehttp 14568 20976 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:22:55,323 basehttp 14568 4884 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00')
+ERROR 2026-06-02 14:22:55,324 basehttp 14568 4884 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:22:55,324 basehttp 14568 14428 code 400, message Bad request version ('¬\\º\x03·(:0\x120\x8b6\x1b#\x11\x11TÏ\x90\x80"¾Óh&\x89ª\x9c\x8b\x1a\x89Ò¹ã´Ê\x88Ùdn\x03\x13Å\x98l\x11PFµ\x16§i%7ã¡Å+\x82jqBÎNùÃîáH\x10e\x8a\x99÷h\x17Ö0Úö<ÐZª2Ú«')
+ERROR 2026-06-02 14:22:55,325 basehttp 14568 14428 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:22:55,328 basehttp 14568 12596 code 400, message Bad request version ('\x04Qh\x80\x90Í')
+ERROR 2026-06-02 14:22:55,329 basehttp 14568 12596 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:24:03,369 basehttp 14568 8144 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2026-06-02 14:24:03,370 basehttp 14568 8144 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:24:03,374 basehttp 14568 20688 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04í')
+ERROR 2026-06-02 14:24:03,374 basehttp 14568 20688 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:25:32,809 basehttp 14568 9952 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+ERROR 2026-06-02 14:25:32,809 basehttp 14568 9952 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:25:32,815 basehttp 14568 4560 code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063**\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00#\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00')
+ERROR 2026-06-02 14:25:32,816 basehttp 14568 4560 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:27:14,944 basehttp 14568 620 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2026-06-02 14:27:14,945 basehttp 14568 620 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:27:14,952 basehttp 14568 18392 code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+ERROR 2026-06-02 14:27:14,953 basehttp 14568 18392 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:27:39,082 basehttp 14568 12496 "GET / HTTP/1.1" 301 0
+INFO 2026-06-02 14:27:39,763 basehttp 14568 9376 code 400, message Bad request version ('\x00\x02\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00')
+ERROR 2026-06-02 14:27:39,764 basehttp 14568 9376 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:27:39,769 basehttp 14568 20596 code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ò\x989PÝ\x7f\x99é\x00\x15\x8eB')
+ERROR 2026-06-02 14:27:39,769 basehttp 14568 20596 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:27:48,204 basehttp 14568 22472 code 400, message Bad request version ('@©z£i«ß7O\x7f6¬ü÷\x01u÷r<»|pjâj®t01D®¯\x00')
+INFO 2026-06-02 14:27:48,204 basehttp 14568 12584 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2026-06-02 14:27:48,204 basehttp 14568 22472 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-06-02 14:27:48,204 basehttp 14568 12584 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:27:48,210 basehttp 14568 21036 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+INFO 2026-06-02 14:27:48,210 basehttp 14568 2804 code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x88')
+ERROR 2026-06-02 14:27:48,210 basehttp 14568 21036 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-06-02 14:27:48,211 basehttp 14568 2804 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:31,383 basehttp 14568 14000 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06ZZ\x03\x04\x03\x03\x00')
+ERROR 2026-06-02 14:28:31,383 basehttp 14568 14000 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:31,385 basehttp 14568 20996 code 400, message Bad request version ('¸¹aÉ´ùÀtu\x7f3\x12b\x99|×$+ä^ü')
+ERROR 2026-06-02 14:28:31,386 basehttp 14568 20996 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:31,386 basehttp 14568 15296 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+ERROR 2026-06-02 14:28:31,387 basehttp 14568 15296 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:31,392 basehttp 14568 12232 code 400, message Bad request version ('\x02h2\x08http/1.1\x003\x04ï\x04íêê\x00\x01\x00\x11ì\x04ÀÒøÇ(ûY)\x9cPSËzär\x91')
+ERROR 2026-06-02 14:28:31,394 basehttp 14568 12232 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:42,634 basehttp 14568 5324 code 400, message Bad request version ('\x96/·')
+INFO 2026-06-02 14:28:42,634 basehttp 14568 13648 code 400, message Bad request version ('AÅ\x9bZç%\x97îÖ\x13\x00ù')
+ERROR 2026-06-02 14:28:42,635 basehttp 14568 5324 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-06-02 14:28:42,635 basehttp 14568 13648 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:42,638 basehttp 14568 3412 code 400, message Bad request version ('\x89ÕK\x04\x92º¤ÄJr£æË\x8a´\x14\x08X\x146\x81\x03ÑU};¨\x863£\x93\x8cG')
+INFO 2026-06-02 14:28:42,638 basehttp 14568 18744 code 400, message Bad request version ('OJ\x90®8ÃA¢AÏ\x93Çÿæu×ÖW:LÈ¯,ÌuôÆdARÊ')
+ERROR 2026-06-02 14:28:42,639 basehttp 14568 3412 You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2026-06-02 14:28:42,643 basehttp 14568 18744 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:43,114 basehttp 14568 12456 code 400, message Bad request version ('Bbm')
+ERROR 2026-06-02 14:28:43,114 basehttp 14568 12456 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:43,115 basehttp 14568 18448 code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x8a\x8a\x00\x00\x00\x1b\x00\x03\x02\x00\x02DÍ\x00\x05\x00\x03\x02h2\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2026-06-02 14:28:43,117 basehttp 14568 18448 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:43,118 basehttp 14568 204 code 400, message Bad request version ('7×\x92)±\x97-*\x14nÔ+ãÃ\x8e3Ø=ÙÒÝÀfõÏ+%ó\x93ÌY\x0eWu+\x08\x87È')
+ERROR 2026-06-02 14:28:43,119 basehttp 14568 204 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:28:43,121 basehttp 14568 4364 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2026-06-02 14:28:43,122 basehttp 14568 4364 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:29:13,097 basehttp 14568 11412 code 400, message Bad request version ('ö\x97â&\x9dáA<ìg\x9b\x1a\x8bj¥uM_±:VÑÑ\x9aH\x0f¤³Û')
+ERROR 2026-06-02 14:29:13,097 basehttp 14568 11412 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:29:13,099 basehttp 14568 4976 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x17\x00\x00\x00')
+ERROR 2026-06-02 14:29:13,099 basehttp 14568 4976 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:30:23,601 autoreload 21600 9252 Watching for file changes with StatReloader
+INFO 2026-06-02 14:30:30,085 basehttp 14568 9888 code 400, message Bad request version ('\x8d{À\x01Ë³\x8a\x10Ä;\x94*|')
+ERROR 2026-06-02 14:30:30,086 basehttp 14568 9888 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:30:30,088 basehttp 14568 15972 code 400, message Bad request version ('f(¸W.«ªT¸äÇwó\x10\x81ÁW')
+ERROR 2026-06-02 14:30:30,088 basehttp 14568 15972 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:30:40,102 basehttp 14568 21152 code 400, message Bad request version ('Ã|\x81¤3»UuT')
+ERROR 2026-06-02 14:30:40,105 basehttp 14568 21152 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:30:40,108 basehttp 14568 10944 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00')
+ERROR 2026-06-02 14:30:40,108 basehttp 14568 10944 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:31:54,410 basehttp 14568 10612 "GET / HTTP/1.1" 301 0
+INFO 2026-06-02 14:31:54,719 basehttp 14568 16460 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+ERROR 2026-06-02 14:31:54,720 basehttp 14568 16460 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:31:54,985 basehttp 14568 20688 code 400, message Bad request version (';zÝK¶RÛ×b³$0÷\x0eÔãU\x8cP´\x11l¯\x1azðçþ²)¨\x88')
+ERROR 2026-06-02 14:31:54,985 basehttp 14568 20688 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:31:55,033 basehttp 14568 14228 code 400, message Bad request version ('{)fÃ\x03\x10Tµ\x96\x84\x12å¨\x80ï\x8aµb¦¹\x8f\x16\x86ü¥¥ÚÚÃ¢\x1b£Ïb.Æ÷nø\x19±Èñ\x88ÅüD8+-~wVcá')
+ERROR 2026-06-02 14:31:55,034 basehttp 14568 14228 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:31:55,288 basehttp 14568 7132 code 400, message Bad request syntax ('\x16\x03\x01\x07\x12\x01\x00\x07\x0e\x03\x03©')
+ERROR 2026-06-02 14:31:55,289 basehttp 14568 7132 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:33:59,078 basehttp 14568 11576 "GET / HTTP/1.1" 301 0
+INFO 2026-06-02 14:33:59,398 basehttp 14568 22508 code 400, message Bad request version ('Aõ\x0f<,Ï3±\x07Zw\x16bL\x93\x1a\x88Á\x00ÜlI¤G^')
+ERROR 2026-06-02 14:33:59,398 basehttp 14568 22508 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:33:59,651 basehttp 14568 5324 code 400, message Bad request version ('localhost\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+ERROR 2026-06-02 14:33:59,652 basehttp 14568 5324 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:33:59,702 basehttp 14568 4112 code 400, message Bad request version ('¿V\x84D5%')
+ERROR 2026-06-02 14:33:59,702 basehttp 14568 4112 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:33:59,953 basehttp 14568 5432 code 400, message Bad request version ('Ñç§õ\x04ÒåBB>\x0erPRHÊÚ~?%\x88')
+ERROR 2026-06-02 14:33:59,954 basehttp 14568 5432 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:34:02,850 basehttp 14568 1872 code 400, message Bad request version ('6I')
+ERROR 2026-06-02 14:34:02,850 basehttp 14568 1872 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:34:02,867 basehttp 14568 13564 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06E')
+ERROR 2026-06-02 14:34:02,867 basehttp 14568 13564 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:34:03,116 basehttp 14568 21428 code 400, message Bad request version ('V\x8e«)ê\x00')
+ERROR 2026-06-02 14:34:03,116 basehttp 14568 21428 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:34:03,166 basehttp 14568 10572 code 400, message Bad request version ('º\x87,«¢\x8c\x17Æ®\x01')
+ERROR 2026-06-02 14:34:03,166 basehttp 14568 10572 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:34:03,175 basehttp 14568 784 code 400, message Bad request version ('q^Ä')
+ERROR 2026-06-02 14:34:03,175 basehttp 14568 784 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:34:03,424 basehttp 14568 11772 code 400, message Bad request version ('â¾å>éT^Dµ2Q\x19Ø81\x0e+\x88Zs¤í')
+ERROR 2026-06-02 14:34:03,424 basehttp 14568 11772 You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:44:03,678 autoreload 21600 9252 C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-02 14:44:03,714 autoreload 14568 2064 C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-02 14:44:03,746 autoreload 1908 12072 C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-02 14:44:05,292 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 14:44:05,339 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 14:44:05,344 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 14:50:37,782 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 14:50:41,252 basehttp code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+ERROR 2026-06-02 14:50:41,252 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 14:50:41,254 basehttp code 400, message Bad request version ('µ;j\x93·b{')
+ERROR 2026-06-02 14:50:41,255 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2026-06-02 14:51:39,276 log Method Not Allowed: /api/token/
+WARNING 2026-06-02 14:51:39,278 basehttp "GET /api/token/ HTTP/1.1" 405 7609
+INFO 2026-06-02 14:51:39,588 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2026-06-02 14:51:39,615 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2026-06-02 14:51:39,659 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-06-02 14:51:39,699 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2026-06-02 14:51:39,699 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2026-06-02 14:51:39,710 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-06-02 14:51:39,714 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2026-06-02 14:51:39,719 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2026-06-02 14:51:39,722 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2026-06-02 14:51:39,731 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-06-02 14:51:39,741 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2026-06-02 14:51:39,799 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+WARNING 2026-06-02 14:51:39,879 log Not Found: /favicon.ico
+WARNING 2026-06-02 14:51:39,880 basehttp "GET /favicon.ico HTTP/1.1" 404 3628
+INFO 2026-06-02 15:00:49,357 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-06-02 15:00:49,568 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2026-06-02 15:00:49,619 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-06-02 15:00:49,620 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-06-02 15:00:49,622 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-06-02 15:00:49,624 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-06-02 15:00:49,625 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-06-02 15:00:49,641 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-06-02 15:00:49,654 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-06-02 15:01:01,435 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-06-02 15:01:01,470 basehttp "GET /admin/ HTTP/1.1" 200 6104
+INFO 2026-06-02 15:01:01,505 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-06-02 15:01:01,520 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-06-02 15:01:01,520 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-06-02 15:02:54,680 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 12047
+INFO 2026-06-02 15:02:54,718 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2026-06-02 15:02:54,725 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-06-02 15:02:54,741 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 15:02:54,741 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-06-02 15:02:54,742 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+INFO 2026-06-02 15:02:54,748 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-06-02 15:02:54,749 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2026-06-02 15:02:54,774 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-06-02 15:02:54,784 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+INFO 2026-06-02 15:02:54,785 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-06-02 15:02:54,790 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-06-02 15:02:54,798 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-06-02 15:02:54,810 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-06-02 15:02:54,834 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-06-02 15:02:54,879 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-06-02 15:02:54,943 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2026-06-02 15:02:54,943 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2026-06-02 15:03:15,824 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2026-06-02 15:03:15,842 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 12277
+INFO 2026-06-02 15:03:15,873 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 15:03:15,900 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2026-06-02 15:03:30,900 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2026-06-02 15:03:30,920 basehttp "GET /admin/auth/group/add/ HTTP/1.1" 200 12278
+INFO 2026-06-02 15:03:30,949 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 15:03:42,211 basehttp "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2026-06-02 15:03:42,344 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 9754
+INFO 2026-06-02 15:03:42,375 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 15:03:42,393 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2026-06-02 15:03:42,397 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-06-02 15:03:42,419 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2026-06-02 15:11:10,699 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 15:11:11,657 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 15:17:40,992 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 15:17:42,067 autoreload Watching for file changes with StatReloader
+WARNING 2026-06-02 15:19:22,802 log Method Not Allowed: /api/token/
+WARNING 2026-06-02 15:19:22,803 basehttp "GET /api/token/ HTTP/1.1" 405 7609
+INFO 2026-06-02 15:19:22,831 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,838 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,838 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,840 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,848 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,848 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,848 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,849 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,849 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,850 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,851 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:19:22,854 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2026-06-02 15:21:47,917 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 15:21:48,875 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 15:22:04,733 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 15:22:08,031 basehttp code 400, message Bad request version ('A\x15¤ø¦\x8f\x9cV\x90')
+ERROR 2026-06-02 15:22:08,033 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:22:08,035 basehttp code 400, message Bad request version ('\x1b@`=\x90')
+ERROR 2026-06-02 15:22:08,035 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:22:27,335 basehttp code 400, message Bad request version ('\x00\x02\x01\x00DÍ\x00\x05\x00\x03\x02h2\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00\x1b\x00\x03\x02\x00\x02ÿ\x01\x00\x01\x00\x00')
+ERROR 2026-06-02 15:22:27,337 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:22:27,340 basehttp code 400, message Bad request version ('?D\x00Ðq*\xadk')
+ERROR 2026-06-02 15:22:27,341 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:37:59,962 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 15:38:08,002 basehttp code 400, message Bad request version ('\x00')
+ERROR 2026-06-02 15:38:08,010 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:38:08,015 basehttp code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+ERROR 2026-06-02 15:38:08,017 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:39:38,184 basehttp code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00')
+ERROR 2026-06-02 15:39:38,185 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:39:38,191 basehttp code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03i')
+ERROR 2026-06-02 15:39:38,194 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:39:55,622 basehttp code 400, message Bad request version ("b\x12\x038£)Ò´¨'ÚÆì¼r\x14Ä\x00\x12\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00")
+ERROR 2026-06-02 15:39:55,623 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 15:39:55,632 basehttp code 400, message Bad request version ('\x98FEpMÀø¶\x06\x06\xadë|fk\x16U\x00')
+ERROR 2026-06-02 15:39:55,632 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2026-06-02 15:45:45,218 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:45:45,220 basehttp "GET /api/incidents/ HTTP/1.1" 401 5107
+INFO 2026-06-02 15:45:45,257 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,258 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,262 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,263 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,264 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,265 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,267 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,267 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,269 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,269 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,270 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 15:45:45,279 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2026-06-02 15:47:03,939 basehttp "POST /api/token/ HTTP/1.1" 200 489
+INFO 2026-06-02 15:49:54,083 basehttp "GET / HTTP/1.1" 200 12028
+INFO 2026-06-02 15:49:55,450 basehttp "GET /static/css/dashboard.css HTTP/1.1" 200 8714
+INFO 2026-06-02 15:49:55,551 basehttp "GET /static/js/dashboard.js HTTP/1.1" 200 2956
+WARNING 2026-06-02 15:49:56,106 log Not Found: /favicon.ico
+WARNING 2026-06-02 15:49:56,107 basehttp "GET /favicon.ico HTTP/1.1" 404 4170
+INFO 2026-06-02 15:51:15,980 basehttp "GET / HTTP/1.1" 200 12028
+INFO 2026-06-02 15:51:16,176 basehttp "GET /static/css/dashboard.css HTTP/1.1" 200 8714
+INFO 2026-06-02 15:51:16,177 basehttp "GET /static/js/dashboard.js HTTP/1.1" 200 2956
+WARNING 2026-06-02 15:51:16,572 log Not Found: /favicon.ico
+WARNING 2026-06-02 15:51:16,573 basehttp "GET /favicon.ico HTTP/1.1" 404 4170
+WARNING 2026-06-02 15:52:00,730 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:52:00,731 basehttp "GET /api/incidents/ HTTP/1.1" 401 58
+WARNING 2026-06-02 15:52:09,095 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:52:09,096 basehttp "GET /api/incidents/ HTTP/1.1" 401 58
+WARNING 2026-06-02 15:54:27,864 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:54:27,865 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+WARNING 2026-06-02 15:55:23,264 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:55:23,265 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+WARNING 2026-06-02 15:56:25,097 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:56:25,098 basehttp "POST /api/incidents/ HTTP/1.1" 401 172
+INFO 2026-06-02 15:57:27,843 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 15:58:15,328 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:58:15,328 basehttp "POST /api/incidents/ HTTP/1.1" 401 172
+WARNING 2026-06-02 15:58:24,819 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:58:24,820 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+WARNING 2026-06-02 15:59:25,360 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 15:59:25,361 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+WARNING 2026-06-02 16:00:01,721 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 16:00:01,722 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+INFO 2026-06-02 16:01:53,687 basehttp code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+ERROR 2026-06-02 16:01:53,689 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 16:01:53,694 basehttp code 400, message Bad request version ('wñ!')
+ERROR 2026-06-02 16:01:53,694 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 16:02:12,578 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 16:02:12,592 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 16:02:14,216 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:02:14,216 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:04:05,118 basehttp "GET / HTTP/1.1" 200 12028
+INFO 2026-06-02 16:04:21,301 basehttp "GET /admin/ HTTP/1.1" 200 7171
+INFO 2026-06-02 16:04:21,352 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,353 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,357 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,358 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,359 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,360 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,367 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,374 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:21,375 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,555 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11771
+INFO 2026-06-02 16:04:57,617 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,617 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,617 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,618 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,619 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,628 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,633 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,634 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,634 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,637 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,638 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:04:57,639 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,649 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:57,677 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:04:58,131 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2026-06-02 16:04:58,146 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2026-06-02 16:05:00,338 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 9553
+INFO 2026-06-02 16:05:00,387 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:10:02,629 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:10:02,690 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:10:05,277 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:10:05,277 autoreload Watching for file changes with StatReloader
+WARNING 2026-06-02 16:11:35,534 log Bad Request: /api/token/
+WARNING 2026-06-02 16:11:35,537 basehttp "POST /api/token/ HTTP/1.1" 400 79
+INFO 2026-06-02 16:13:32,358 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 16:14:30,250 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 16:14:30,252 basehttp "GET /api/incidents/ HTTP/1.1" 401 58
+WARNING 2026-06-02 16:17:02,989 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 16:17:02,990 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+INFO 2026-06-02 16:18:50,868 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 16:19:13,456 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 16:19:13,457 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+INFO 2026-06-02 16:20:27,568 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 16:20:54,989 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 16:20:54,991 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+INFO 2026-06-02 16:25:33,118 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:25:38,423 basehttp code 400, message Bad request version ('´¯©6f\x15')
+ERROR 2026-06-02 16:25:38,425 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 16:25:38,429 basehttp code 400, message Bad request version ('\x99b$<Ô')
+ERROR 2026-06-02 16:25:38,430 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2026-06-02 16:26:23,980 log Unauthorized: /api/incidents/
+WARNING 2026-06-02 16:26:23,982 basehttp "GET /api/incidents/ HTTP/1.1" 401 172
+INFO 2026-06-02 16:26:37,574 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 16:27:02,028 log Forbidden: /api/incidents/
+WARNING 2026-06-02 16:27:02,030 basehttp "GET /api/incidents/ HTTP/1.1" 403 28
+INFO 2026-06-02 16:31:40,041 basehttp "GET /admin/auth/group/2/change/ HTTP/1.1" 200 12279
+INFO 2026-06-02 16:31:40,125 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,126 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,135 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,136 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,138 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,140 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,141 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,153 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,157 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,158 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,158 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,158 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,173 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,179 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,180 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,182 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:31:40,185 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,185 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,186 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,205 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,205 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,271 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:31:40,271 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:32:03,345 basehttp "GET /admin/auth/group/2/history/ HTTP/1.1" 200 6680
+INFO 2026-06-02 16:32:06,128 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 9553
+INFO 2026-06-02 16:32:06,175 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:32:06,185 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:32:06,186 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:32:10,800 basehttp "GET /admin/auth/group/1/change/ HTTP/1.1" 200 12275
+INFO 2026-06-02 16:32:10,845 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:35:59,592 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 9553
+INFO 2026-06-02 16:36:03,981 basehttp "GET /admin/auth/group/?o=1 HTTP/1.1" 200 9935
+INFO 2026-06-02 16:36:04,023 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:04,051 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:36:06,353 basehttp "GET /admin/auth/group/?o=-1 HTTP/1.1" 200 9940
+INFO 2026-06-02 16:36:06,408 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:07,392 basehttp "GET /admin/auth/group/?o=1 HTTP/1.1" 200 9935
+INFO 2026-06-02 16:36:07,446 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:09,585 basehttp "GET /admin/auth/group/?q=&o=1 HTTP/1.1" 200 9990
+INFO 2026-06-02 16:36:09,633 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:10,805 basehttp "GET /admin/auth/group/?q=&o=1 HTTP/1.1" 200 9990
+INFO 2026-06-02 16:36:10,853 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:22,195 basehttp "GET /admin/auth/group/2/change/?_changelist_filters=q%3D%26o%3D1 HTTP/1.1" 200 12388
+INFO 2026-06-02 16:36:22,244 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:26,339 basehttp "GET /admin/auth/group/?q=&o=1 HTTP/1.1" 200 9990
+INFO 2026-06-02 16:36:39,341 basehttp "POST /admin/auth/group/?q=&o=1 HTTP/1.1" 302 0
+INFO 2026-06-02 16:36:39,402 basehttp "GET /admin/auth/group/?q=&o=1 HTTP/1.1" 200 10183
+INFO 2026-06-02 16:36:39,447 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:39,882 basehttp "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2026-06-02 16:36:57,185 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11771
+INFO 2026-06-02 16:36:57,241 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:36:57,243 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:57,262 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:36:58,743 basehttp "GET /admin/auth/user/1/change/ HTTP/1.1" 200 22265
+INFO 2026-06-02 16:36:58,795 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:36:58,903 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2026-06-02 16:36:58,914 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:36:58,926 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2026-06-02 16:36:59,016 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2026-06-02 16:36:59,017 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2026-06-02 16:39:37,399 basehttp "POST /admin/auth/user/1/change/ HTTP/1.1" 302 0
+INFO 2026-06-02 16:39:37,445 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 11971
+INFO 2026-06-02 16:39:37,502 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:39:37,526 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:39:51,268 basehttp "POST /api/token/ HTTP/1.1" 200 489
+INFO 2026-06-02 16:40:44,953 basehttp "GET /api/incidents/ HTTP/1.1" 200 65
+INFO 2026-06-02 16:40:56,777 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:40:58,774 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:41:12,804 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:41:14,329 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:41:17,839 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:41:19,207 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:42:51,315 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:42:53,407 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:43:00,709 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:43:02,341 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:43:13,996 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:43:15,391 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:43:18,154 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:43:19,637 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:43:25,853 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:43:27,168 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:43:36,946 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:43:38,365 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:44:00,304 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:44:01,681 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:44:14,720 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:44:16,026 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:44:35,652 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:44:37,464 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:44:40,559 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:44:42,430 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:44:48,670 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:44:50,256 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:44:53,011 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 16:44:54,633 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:45:56,496 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\forms.py changed, reloading.
+INFO 2026-06-02 16:45:58,032 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:46:14,793 basehttp "GET /admin/auth/group/ HTTP/1.1" 200 9553
+INFO 2026-06-02 16:46:14,857 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:47:37,390 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:47:38,988 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:47:42,442 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:47:43,802 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:47:49,410 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:47:51,178 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:48:21,689 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:48:23,084 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:48:26,088 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:48:27,384 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:48:34,142 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:48:35,508 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:48:38,434 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:48:39,989 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:49:28,242 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:49:29,875 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:49:51,461 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:49:52,886 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:49:54,642 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:49:55,907 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:50:08,255 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\admin.py changed, reloading.
+INFO 2026-06-02 16:50:10,006 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:50:42,222 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:50:50,406 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:50:51,788 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:00,014 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:01,387 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:06,160 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:07,830 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:13,272 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:14,998 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:19,342 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:20,756 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:26,051 basehttp "GET /admin/ HTTP/1.1" 200 9311
+INFO 2026-06-02 16:51:26,109 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:26,112 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:26,113 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:26,115 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:26,117 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:26,118 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:26,126 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:26,136 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:51:38,079 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:39,533 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:42,911 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:44,227 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:45,906 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:47,257 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:50,124 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:51,541 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:53,154 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:54,517 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 16:51:56,896 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 16:51:58,329 autoreload Watching for file changes with StatReloader
+ERROR 2026-06-02 16:53:27,883 log Internal Server Error: /admin/disaster_app/incident/
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: disaster_app_incident.created_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 720, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 2166, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 368, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 1954, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 93, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: disaster_app_incident.created_by_id
+ERROR 2026-06-02 16:53:27,922 basehttp "GET /admin/disaster_app/incident/ HTTP/1.1" 500 182065
+INFO 2026-06-02 16:53:30,035 basehttp "GET /admin/ HTTP/1.1" 200 9311
+INFO 2026-06-02 16:53:31,694 basehttp "GET /admin/disaster_app/incident/add/ HTTP/1.1" 200 15893
+INFO 2026-06-02 16:53:31,733 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,754 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,755 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,759 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,762 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,765 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,770 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,770 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-06-02 16:53:31,774 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,777 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,778 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,778 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,789 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,796 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:31,808 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-06-02 16:53:32,169 basehttp "GET /static/admin/js/inlines.js HTTP/1.1" 200 15628
+INFO 2026-06-02 16:53:32,265 basehttp "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 537
+ERROR 2026-06-02 16:54:57,470 log Internal Server Error: /admin/disaster_app/incident/add/
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table disaster_app_incident has no column named created_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 720, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1985, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1844, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1895, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1315, in save_model
+    obj.save()
+    ~~~~~~~~^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table disaster_app_incident has no column named created_by_id
+ERROR 2026-06-02 16:54:57,492 basehttp "POST /admin/disaster_app/incident/add/ HTTP/1.1" 500 219156
+INFO 2026-06-02 16:55:00,932 basehttp "GET /admin/disaster_app/incident/add/ HTTP/1.1" 200 15893
+ERROR 2026-06-02 16:55:23,566 log Internal Server Error: /admin/disaster_app/incident/add/
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table disaster_app_incident has no column named created_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 720, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1985, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1844, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1895, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1315, in save_model
+    obj.save()
+    ~~~~~~~~^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table disaster_app_incident has no column named created_by_id
+ERROR 2026-06-02 16:55:23,588 basehttp "POST /admin/disaster_app/incident/add/ HTTP/1.1" 500 218666
+INFO 2026-06-02 17:00:30,787 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:00:32,606 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:00:35,169 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:00:36,382 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:00:58,783 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:01:00,635 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:01:03,561 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:01:04,941 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:01:11,780 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:01:13,434 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:01:30,049 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:01:32,036 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:02:13,109 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:02:14,705 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:02:19,697 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:02:21,346 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:02:32,702 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:02:33,937 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:03:21,940 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:03:23,236 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:03:33,687 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:03:35,082 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:04:57,908 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 17:04:59,235 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:05:08,095 basehttp code 400, message Bad request version ('ûrÜ\x03zÔÜ¯')
+ERROR 2026-06-02 17:05:08,099 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 17:05:08,105 basehttp code 400, message Bad request version ('í')
+ERROR 2026-06-02 17:05:08,106 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 17:09:53,412 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 17:10:26,292 log Not Found: /api/incidents/create/
+WARNING 2026-06-02 17:10:26,294 basehttp "POST /api/incidents/create/ HTTP/1.1" 404 4201
+INFO 2026-06-02 17:29:24,223 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 17:29:26,961 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:30:13,650 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:31:36,375 basehttp "POST /api/token/ HTTP/1.1" 200 489
+ERROR 2026-06-02 17:32:03,392 log Internal Server Error: /api/incidents/create/
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table disaster_app_incident has no column named created_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py", line 194, in incident_create_api
+    incident = serializer.save(created_by=user)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 1011, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table disaster_app_incident has no column named created_by_id
+ERROR 2026-06-02 17:32:03,425 basehttp "POST /api/incidents/create/ HTTP/1.1" 500 211760
+ERROR 2026-06-02 17:33:12,232 log Internal Server Error: /api/incidents/create/
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table disaster_app_incident has no column named created_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py", line 194, in incident_create_api
+    incident = serializer.save(created_by=user)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 1011, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table disaster_app_incident has no column named created_by_id
+ERROR 2026-06-02 17:33:12,255 basehttp "POST /api/incidents/create/ HTTP/1.1" 500 211760
+WARNING 2026-06-02 17:38:10,859 log Unauthorized: /api/incidents/create/
+WARNING 2026-06-02 17:38:10,864 basehttp "GET /api/incidents/create/ HTTP/1.1" 401 3917
+INFO 2026-06-02 17:38:10,937 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,938 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,941 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,942 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,948 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,948 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,948 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,951 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,953 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,954 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,956 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 17:38:10,961 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2026-06-02 17:42:36,583 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:42:54,080 basehttp code 400, message Bad request version ('\x18\x05PôÕn\x05\x90\x98<\x90Æ\x9c')
+ERROR 2026-06-02 17:42:54,083 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 17:42:54,088 basehttp code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+ERROR 2026-06-02 17:42:54,091 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 17:46:25,908 basehttp "POST /api/token/ HTTP/1.1" 200 489
+ERROR 2026-06-02 17:46:46,530 log Internal Server Error: /api/incidents/create/
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table disaster_app_incident has no column named created_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py", line 194, in incident_create_api
+    incident = serializer.save(created_by=user)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 1011, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table disaster_app_incident has no column named created_by_id
+ERROR 2026-06-02 17:46:46,567 basehttp "POST /api/incidents/create/ HTTP/1.1" 500 211760
+INFO 2026-06-02 17:51:13,860 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 17:51:16,993 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:52:23,057 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:52:35,690 basehttp code 400, message Bad request version ("\x9e\x8a¸(É#Ík©'4V´\x149\x9b)\x001¦\x0e\x03H>¯X/\x8dø\x18Q1«W")
+ERROR 2026-06-02 17:52:35,691 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 17:52:35,694 basehttp code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x12\x00\x00\x00\x17\x00\x00\x00')
+ERROR 2026-06-02 17:52:35,695 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-02 17:52:57,495 basehttp "POST /api/token/ HTTP/1.1" 200 489
+ERROR 2026-06-02 17:53:16,179 log Internal Server Error: /api/incidents/create/
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table disaster_app_incident has no column named created_by_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py", line 194, in incident_create_api
+    incident = serializer.save(created_by=user)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\rest_framework\serializers.py", line 1011, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 360, in execute
+    return super().execute(query, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: table disaster_app_incident has no column named created_by_id
+ERROR 2026-06-02 17:53:16,214 basehttp "POST /api/incidents/create/ HTTP/1.1" 500 211760
+INFO 2026-06-02 17:56:31,545 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 17:56:48,592 basehttp "POST /api/token/ HTTP/1.1" 200 489
+INFO 2026-06-02 17:57:06,564 basehttp "POST /api/incidents/create/ HTTP/1.1" 201 232
+INFO 2026-06-02 18:01:59,891 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:01:59,900 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:02:02,608 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:02:02,615 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:02:14,693 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:02:14,700 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:02:16,244 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:02:16,246 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:02:19,515 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:02:19,538 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:02:21,235 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:02:21,239 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:08:06,141 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\admin.py changed, reloading.
+INFO 2026-06-02 18:08:08,296 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:09:05,815 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:09:27,014 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2026-06-02 18:09:27,192 basehttp "GET /admin/ HTTP/1.1" 200 9969
+INFO 2026-06-02 18:09:27,301 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,307 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,316 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,316 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,319 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,320 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,328 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,343 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 18:09:27,344 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-06-02 18:12:39,567 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\serializers.py changed, reloading.
+INFO 2026-06-02 18:12:39,604 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\serializers.py changed, reloading.
+INFO 2026-06-02 18:12:41,500 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:12:41,500 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:15:08,562 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 18:15:08,558 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 18:15:12,660 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:15:12,660 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:19:34,678 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 18:19:35,901 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 18:19:37,007 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:19:37,540 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:20:00,885 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:21:37,521 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 18:22:41,493 log Not Found: /api/sensors/create/
+WARNING 2026-06-02 18:22:41,495 basehttp "POST /api/sensors/create/?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMzk1OTk3LCJpYXQiOjE3ODAzOTU2OTcsImp0aSI6IjAxODFmZDcwMWI5YTRkNzA5NjhlMjEyNDJiNmZkZGIyIiwidXNlcl9pZCI6IjEifQ.NISjHyrzXcpD01ugDH4THcR3-NwH5K2q3adwVx7qbHw&Content-Type=application/json HTTP/1.1" 404 4766
+INFO 2026-06-02 18:23:15,800 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 18:23:35,720 log Not Found: /api/sensors/
+WARNING 2026-06-02 18:23:35,721 basehttp "GET /api/sensors/ HTTP/1.1" 404 4455
+INFO 2026-06-02 18:26:40,289 autoreload Watching for file changes with StatReloader
+WARNING 2026-06-02 18:26:59,539 log Not Found: /api/sensors/
+WARNING 2026-06-02 18:26:59,541 basehttp "GET /api/sensors/ HTTP/1.1" 404 4455
+INFO 2026-06-02 18:31:04,170 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 18:31:04,205 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 18:31:06,107 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:31:49,461 autoreload Watching for file changes with StatReloader
+WARNING 2026-06-02 18:32:01,186 log Unauthorized: /api/sensors/
+WARNING 2026-06-02 18:32:01,186 basehttp "GET /api/sensors/ HTTP/1.1" 401 5085
+INFO 2026-06-02 18:32:01,231 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,231 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,238 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,241 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,241 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,241 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,244 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,244 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,246 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,247 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,249 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2026-06-02 18:32:01,254 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2026-06-02 18:35:19,301 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:35:19,304 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\models.py changed, reloading.
+INFO 2026-06-02 18:35:21,624 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:35:21,624 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:39:58,335 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\serializers.py changed, reloading.
+INFO 2026-06-02 18:39:59,522 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:46:16,886 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-02 18:46:18,523 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:46:32,068 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:49:07,515 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 18:49:08,284 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-02 18:49:08,402 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:49:09,201 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:49:23,638 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:50:18,899 basehttp "POST /api/token/ HTTP/1.1" 200 489
+WARNING 2026-06-02 18:51:04,107 log Bad Request: /api/hazards/create/
+WARNING 2026-06-02 18:51:04,108 basehttp "POST /api/hazards/create/ HTTP/1.1" 400 43
+INFO 2026-06-02 18:52:55,231 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\serializers.py changed, reloading.
+INFO 2026-06-02 18:52:55,242 autoreload C:\Users\Jessniemarie\Local-Government-Disaster-Early-Warning-System\disaster_app\serializers.py changed, reloading.
+INFO 2026-06-02 18:52:56,630 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:52:56,644 autoreload Watching for file changes with StatReloader
+INFO 2026-06-02 18:53:18,464 autoreload Watching for file changes with StatReloader

@@ -16,7 +16,7 @@ whitenoise==6.7.0
 
 # Cloudinary Integration - Cloud Media Storage & CDN
 cloudinary==1.40.0
-django-cloudinary-storage==0.3.10
+django-cloudinary-storage==0.3.0
 
 # Production Security & CORS Management
 django-cors-headers==4.3.1
