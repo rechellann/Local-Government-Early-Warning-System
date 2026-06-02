@@ -1446,3 +1446,179 @@ INFO 2026-06-03 23:15:37,339 basehttp code 400, message Bad HTTP/0.9 request typ
 ERROR 2026-06-03 23:15:37,347 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
 INFO 2026-06-03 23:15:37,763 basehttp code 400, message Bad request version ('ØË¯«5\x19\x19\x92è\x8a\x01lÌ\x8fÎÝI')
 ERROR 2026-06-03 23:15:37,891 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-03 00:36:28,097 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 00:37:54,411 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\urls.py changed, reloading.
+INFO 2026-06-03 00:37:57,558 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 00:48:17,798 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 00:48:19,745 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:18:48,896 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:19:00,407 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:19:38,625 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:19:39,889 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:19:39,934 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:21:13,414 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-03 01:21:15,012 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:21:15,034 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:22:40,664 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:23:18,495 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:24:23,292 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:24:24,585 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:24:24,609 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:25:47,999 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-03 01:25:50,720 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:25:50,744 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:28:43,817 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:28:44,997 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:28:45,014 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:31:21,926 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-03 01:31:24,992 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:31:25,015 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:32:52,000 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:32:53,682 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:32:53,707 autoreload Watching for file changes with StatReloader
+WARNING 2026-06-03 01:33:44,616 log Not Found: /
+WARNING 2026-06-03 01:33:44,617 log "GET / HTTP/1.1" 404 8873
+WARNING 2026-06-03 01:33:45,032 log Not Found: /favicon.ico
+WARNING 2026-06-03 01:33:45,060 log "GET /favicon.ico HTTP/1.1" 404 8924
+WARNING 2026-06-03 01:35:16,373 log Not Found: /
+WARNING 2026-06-03 01:35:16,374 log "GET / HTTP/1.1" 404 8873
+WARNING 2026-06-03 01:35:16,621 log Not Found: /favicon.ico
+WARNING 2026-06-03 01:35:16,621 log "GET /favicon.ico HTTP/1.1" 404 8924
+INFO 2026-06-03 01:35:34,769 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-06-03 01:35:35,807 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3291
+INFO 2026-06-03 01:35:36,132 log "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-06-03 01:35:36,162 log "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-06-03 01:35:36,230 log "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-06-03 01:35:36,410 log "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-06-03 01:35:36,597 log "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-06-03 01:35:55,314 log "GET /secret-lgu-portal/ HTTP/1.1" 302 0
+INFO 2026-06-03 01:35:55,405 log "GET /secret-lgu-portal/login/?next=/secret-lgu-portal/ HTTP/1.1" 200 4128
+INFO 2026-06-03 01:35:55,479 log "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-06-03 01:35:55,581 log "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-06-03 01:36:44,301 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:36:49,074 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 01:36:49,076 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:06:49.074058+00:00
+INFO 2026-06-03 01:36:49,078 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 01:36:49,079 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+WARNING 2026-06-03 01:36:49,089 log Unauthorized: /api/incidents/1/
+INFO 2026-06-03 01:36:52,654 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 01:36:52,660 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:06:52.654327+00:00
+INFO 2026-06-03 01:36:52,664 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 01:36:52,665 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+WARNING 2026-06-03 01:36:52,684 log Unauthorized: /api/incidents/1/
+WARNING 2026-06-03 01:37:45,575 log Not Found: /admin-dashboard/ [name='admin_dashboard']
+WARNING 2026-06-03 01:37:45,576 log "GET /admin-dashboard/%20[name='admin_dashboard'] HTTP/1.1" 404 9052
+INFO 2026-06-03 01:38:41,854 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-03 01:38:42,471 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\config\settings.py changed, reloading.
+INFO 2026-06-03 01:38:45,912 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:38:45,948 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:38:46,129 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:38:46,164 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:39:37,588 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:39:44,612 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 01:39:44,729 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:09:44.612262+00:00
+INFO 2026-06-03 01:39:44,844 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 01:39:44,929 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+INFO 2026-06-03 01:39:50,474 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 01:39:50,477 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:09:50.474570+00:00
+INFO 2026-06-03 01:39:50,480 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 01:39:50,490 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+WARNING 2026-06-03 01:39:50,531 log Forbidden: /api/incidents/1/
+INFO 2026-06-03 01:39:56,688 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 01:39:56,689 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:09:56.688598+00:00
+INFO 2026-06-03 01:39:56,692 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 01:39:56,692 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+WARNING 2026-06-03 01:39:56,696 views Suspicious activity: User dispatcher_user attempted unauthorized bulk update from IP 127.0.0.1
+WARNING 2026-06-03 01:39:56,697 log Forbidden: /api/incidents/bulk-update-status/
+WARNING 2026-06-03 01:41:05,877 log Not Found: /
+WARNING 2026-06-03 01:41:06,104 log "GET / HTTP/1.1" 404 8873
+INFO 2026-06-03 01:41:31,504 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-06-03 01:41:31,738 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3291
+INFO 2026-06-03 01:41:55,782 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 01:41:56,059 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 01:42:03,941 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:42:04,229 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:42:04,473 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:42:05,168 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:49:07,264 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:49:30,387 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 01:49:30,571 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 01:49:34,324 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:49:34,353 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:49:34,369 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:49:34,425 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:49:49,249 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:51:21,648 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 01:51:21,813 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 01:51:27,740 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:51:27,774 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:51:28,117 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:51:28,134 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 01:52:30,460 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:52:49,278 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:59:50,751 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 01:59:59,087 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:00:42,244 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:01:36,498 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:01:37,698 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:01:37,715 autoreload Watching for file changes with StatReloader
+WARNING 2026-06-03 02:01:53,334 log Not Found: /
+WARNING 2026-06-03 02:01:53,335 log "GET / HTTP/1.1" 404 8873
+INFO 2026-06-03 02:02:19,041 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-06-03 02:02:19,093 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3291
+INFO 2026-06-03 02:02:32,944 log "GET /secret-lgu-portal/ HTTP/1.1" 302 0
+INFO 2026-06-03 02:02:32,956 log "GET /secret-lgu-portal/login/?next=/secret-lgu-portal/ HTTP/1.1" 200 4128
+INFO 2026-06-03 02:02:58,758 database AXES: User login failed, running database handler for failure.
+INFO 2026-06-03 02:02:58,760 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:32:57.033182+00:00
+WARNING 2026-06-03 02:02:58,771 database AXES: New login failure by {username: "********************", ip_address: "********************", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36", path_info: "/secret-lgu-portal/login/"}. Created new record in the database.
+INFO 2026-06-03 02:02:58,784 log "POST /secret-lgu-portal/login/?next=/secret-lgu-portal/ HTTP/1.1" 200 4296
+INFO 2026-06-03 02:04:24,449 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:04:30,277 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 02:04:30,278 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:34:30.276390+00:00
+INFO 2026-06-03 02:04:30,280 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 02:04:30,281 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+INFO 2026-06-03 02:04:35,717 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 02:04:35,735 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:34:35.717345+00:00
+INFO 2026-06-03 02:04:35,740 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 02:04:35,742 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+WARNING 2026-06-03 02:04:35,753 log Forbidden: /api/incidents/1/
+INFO 2026-06-03 02:04:40,883 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"}.
+INFO 2026-06-03 02:04:40,884 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:34:40.883110+00:00
+INFO 2026-06-03 02:04:40,886 database AXES: Reset 0 access attempts from database.
+INFO 2026-06-03 02:04:40,886 database AXES: Deleted 0 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "<unknown>", path_info: "<unknown>"} from database.
+WARNING 2026-06-03 02:04:40,909 views Suspicious activity: User dispatcher_user attempted unauthorized bulk update from IP 127.0.0.1
+WARNING 2026-06-03 02:04:40,909 log Forbidden: /api/incidents/bulk-update-status/
+WARNING 2026-06-03 02:08:59,121 log Not Found: /
+WARNING 2026-06-03 02:08:59,138 log "GET / HTTP/1.1" 404 8873
+INFO 2026-06-03 02:12:33,541 autoreload C:\Users\Admin\Local-Government-Early-Warning-System\disaster_app\views.py changed, reloading.
+INFO 2026-06-03 02:12:37,227 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:12:37,242 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 02:15:19,845 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:17:08,932 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:17:10,064 apps AXES: BEGIN version 8.3.1, blocking by ip_address or username
+INFO 2026-06-03 02:17:10,089 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 02:17:52,720 log "GET /secret-lgu-portal/ HTTP/1.1" 302 0
+INFO 2026-06-03 02:17:52,770 log "GET /secret-lgu-portal/login/?next=/secret-lgu-portal/ HTTP/1.1" 200 4128
+INFO 2026-06-03 02:18:07,461 database AXES: Successful login by {username: "********************", ip_address: "********************", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36", path_info: "/secret-lgu-portal/login/"}.
+INFO 2026-06-03 02:18:07,463 database AXES: Cleaned up 0 expired access attempts from database that were older than 2026-06-02 17:48:05.694192+00:00
+INFO 2026-06-03 02:18:07,501 database AXES: Reset 1 access attempts from database.
+INFO 2026-06-03 02:18:07,503 database AXES: Deleted 1 failed login attempts by {username: "********************", ip_address: "********************", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36", path_info: "/secret-lgu-portal/login/"} from database.
+INFO 2026-06-03 02:18:07,553 log "POST /secret-lgu-portal/login/?next=/secret-lgu-portal/ HTTP/1.1" 302 0
+INFO 2026-06-03 02:18:09,301 log "GET /secret-lgu-portal/ HTTP/1.1" 200 11929
+INFO 2026-06-03 02:18:09,684 log "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-06-03 02:18:11,418 log "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-06-03 02:18:11,418 log "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+WARNING 2026-06-03 02:18:20,584 log Not Found: /
+WARNING 2026-06-03 02:18:20,585 log "GET / HTTP/1.1" 404 8873
+INFO 2026-06-03 02:19:08,160 log "GET /secret-lgu-portal/ HTTP/1.1" 200 11929
+WARNING 2026-06-03 02:19:22,117 log Not Found: /
+WARNING 2026-06-03 02:19:22,118 log "GET / HTTP/1.1" 404 8873
+INFO 2026-06-03 02:20:06,589 log "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-06-03 02:20:06,601 log "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3438
+INFO 2026-06-03 02:20:23,441 log "GET /secret-lgu-portal/ HTTP/1.1" 200 11929
+WARNING 2026-06-03 02:20:33,051 log Not Found: /
+WARNING 2026-06-03 02:20:33,052 log "GET / HTTP/1.1" 404 8873
+WARNING 2026-06-03 02:24:16,290 log Not Found: /dashboard
+WARNING 2026-06-03 02:24:16,291 log "GET /dashboard HTTP/1.1" 404 8918
+WARNING 2026-06-03 02:24:39,534 log Not Found: /
+WARNING 2026-06-03 02:24:39,535 log "GET / HTTP/1.1" 404 8873

@@ -1,8 +1,12 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, get_object_or_404
+from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
 from django.core.cache import cache
 from django.db import connection
+import logging
+
+security_logger = logging.getLogger('axes')
 
 from .forms import IncidentForm, HazardImageFormSet
 
@@ -12,6 +16,7 @@ from .models import (
     HazardReport
 )
 
+from .permissions import IsLGUAdmin, IsDispatcherOrLGUAdmin
 from .serializers import (
     IncidentSerializer,
     SensorSerializer,
@@ -35,28 +40,126 @@ def get_user_roles(user):
         )
     )
 
-
+@login_required
 def admin_dashboard(request):
+    if 'LGU Admin' not in get_user_roles(request.user):
+        return redirect('dashboard')
+
     return render(
         request,
-        'dashboard/admin_dashboard.html'
+        'dashboard/admin_dashboard.html',
+        {
+            'total_incidents': Incident.objects.count(),
+            'critical_incidents': Incident.objects.filter(status='CRITICAL').count(),
+        }
     )
 
+@login_required 
+def dashboard(request):
+    incidents = Incident.objects.all().order_by('-created_at')
+
+    return render(request, 'dashboard.html', {
+        'incidents': incidents
+    })
+
+@login_required
+def my_reports(request):
+
+    incidents = Incident.objects.filter(
+        created_by=request.user
+    ).order_by('-created_at')
+
+    return render(
+        request,
+        'dashboard.html',
+        {
+            'incidents': incidents
+        }
+    )
+    
+@login_required
+def all_reports(request):
+
+    groups = get_user_roles(
+        request.user
+    )
+
+    if 'LGU Admin' not in groups:
+        return redirect('dashboard')
+
+    incidents = Incident.objects.all().order_by(
+        '-created_at'
+    )
+
+    return render(
+        request,
+        'dashboard.html',
+        {
+            'incidents': incidents
+        }
+    )
+@login_required
+def create_incident(request):
+
+    if request.method == 'POST':
+
+        form = IncidentForm(request.POST)
+
+        if form.is_valid():
+
+            incident = form.save(commit=False)
+
+            incident.created_by = request.user
+
+            incident.save()
+
+            formset = HazardImageFormSet(
+                request.POST,
+                request.FILES,
+                instance=incident
+            )
+
+            if formset.is_valid():
+                formset.save()
+
+            return redirect('dashboard')
+
+    else:
+        form = IncidentForm()
+        formset = HazardImageFormSet()
+
+    return render(
+        request,
+        'incident/create.html',
+        {
+            'form': form,
+            'formset': formset
+        }
+    )
+
+@login_required
 def dispatcher_dashboard(request):
+    if 'Dispatcher' not in get_user_roles(request.user) and 'LGU Admin' not in get_user_roles(request.user):
+        return redirect('dashboard')
+
     return render(
         request,
         'dashboard/dispatcher_dashboard.html'
     )
 
+@login_required
 def public_dashboard(request):
     return render(
         request,
         'dashboard/public_dashboard.html'
     )
 
-
-
+@login_required
 def incident_management(request):
+    groups = get_user_roles(request.user)
+    if 'LGU Admin' not in groups and 'Dispatcher' not in groups:
+        return redirect('dashboard')
+
     return render(
         request,
         'incidents/incident_management.html'
@@ -80,11 +183,23 @@ def reports_analytics(request):
         'reports/reports_analytics.html'
     )
 
+@login_required
 def audit_log(request):
+    # Ensure only LGU Admins can see security audit trails
+    if 'LGU Admin' not in get_user_roles(request.user):
+        security_logger.warning(
+            f"Unauthorized access attempt to Audit Logs by {request.user.username}"
+        )
+        return redirect('dashboard')
+
+    # Pull the latest 10 failed login attempts from Axes to show in the UI
+    from axes.models import AccessAttempt
+    attempts = AccessAttempt.objects.all().order_by('-attempt_time')[:10]
+    
     return render(
         request,
         'security/audit_log.html'
-    )
+    , {'attempts': attempts})
 
 # =========================================================
 # INCIDENT LIST API
@@ -92,76 +207,16 @@ def audit_log(request):
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def incident_list_api(request):
+    groups = get_user_roles(request.user)
 
-    user = request.user
-    groups = get_user_roles(user)
-
-    incidents = Incident.objects.all().order_by(
-        '-created_at'
-    )
-
-    if 'LGU Admin' in groups:
-        pass
-
-    elif 'Dispatcher' in groups:
-        incidents = incidents.exclude(
-            status='NORMAL'
-        )
-
-    elif 'Public Viewer' in groups:
-        incidents = incidents.exclude(
-            status='CRITICAL'
-        )
-
+    if 'LGU Admin' in groups or 'Dispatcher' in groups:
+        incidents = Incident.objects.all().order_by('-created_at')
     else:
-        return Response(
-            {
-                "error": "No role assigned"
-            },
-            status=403
-        )
+        # Public viewers only see non-critical incidents
+        incidents = Incident.objects.exclude(status='CRITICAL').order_by('-created_at')
 
-    data = []
-
-    for incident in incidents:
-
-        item = {
-            "id": incident.id,
-            "title": incident.title,
-            "status": incident.status,
-            "created_at": incident.created_at,
-        }
-
-        if 'LGU Admin' in groups:
-
-            item["description"] = (
-                incident.description
-            )
-
-            item["images"] = (
-                IncidentSerializer(
-                    incident
-                ).data["images"]
-            )
-
-        elif 'Dispatcher' in groups:
-
-            item["description"] = (
-                incident.description[:80]
-                + "..."
-            )
-
-        data.append(item)
-
-    return Response(
-        {
-            "user": user.username,
-            "roles": groups,
-            "count": len(data),
-            "data": data
-        }
-    )
-
+    serializer = IncidentSerializer(incidents, many=True)
+    return Response(serializer.data)
 
 # =========================================================
 # INCIDENT DETAIL API
@@ -181,67 +236,46 @@ def incident_detail_api(request, pk):
             status=403
         )
 
-    try:
+    incident = get_object_or_404(Incident, pk=pk)
 
-        incident = Incident.objects.get(
-            pk=pk
-        )
+    # ==========================================
+    # ANTI-IDOR PROTECTION
+    # ==========================================
+    if 'LGU Admin' not in groups and incident.created_by and incident.created_by != user:
+        return Response({"error": "Unauthorized access"}, status=403)
 
-        if (
-            'Public Viewer' in groups and
-            incident.status == 'CRITICAL'
-        ):
-            return Response(
-                {
-                    "error":
-                    "Access denied for critical incidents"
-                },
-                status=403
-            )
-
-        data = {
-            "id": incident.id,
-            "title": incident.title,
-            "status": incident.status,
-            "created_at": incident.created_at,
-        }
-
-        if 'LGU Admin' in groups:
-
-            data["description"] = (
-                incident.description
-            )
-
-            data["images"] = (
-                IncidentSerializer(
-                    incident
-                ).data["images"]
-            )
-
-        elif 'Dispatcher' in groups:
-
-            data["description"] = (
-                incident.description[:100]
-                + "..."
-            )
-
+    # Public cannot view CRITICAL incidents
+    if (
+        'Public Viewer' in groups
+        and incident.status == 'CRITICAL'
+    ):
         return Response(
             {
-                "user": user.username,
-                "roles": groups,
-                "data": data
-            }
-        )
-
-    except Incident.DoesNotExist:
-
-        return Response(
-            {
-                "error": "Incident not found"
+                "error": "Access denied for critical incidents"
             },
-            status=404
+            status=403
         )
 
+    data = {
+        "id": incident.id,
+        "title": incident.title,
+        "status": incident.status,
+        "created_at": incident.created_at,
+    }
+
+    if 'LGU Admin' in groups:
+        data["description"] = incident.description
+        data["images"] = IncidentSerializer(incident).data["images"]
+    elif 'Dispatcher' in groups:
+        data["description"] = incident.description[:100] + "..."
+
+    return Response(
+        {
+            "user": user.username,
+            "roles": groups,
+            "data": data
+        }
+    )
 
 # =========================================================
 # INCIDENT CREATE API
@@ -490,23 +524,20 @@ def health_check(request):
 # =========================================================
 # BULK UPDATE STATUS
 # =========================================================
+@login_required
 @require_http_methods(["POST"])
 def bulk_update_status(request):
-
-    if not request.user.is_authenticated:
-        return JsonResponse(
-            {
-                'error': 'Authentication required'
-            },
-            status=401
-        )
-
-    groups = get_user_roles(
-        request.user
-    )
+    user = request.user
+    groups = get_user_roles(user)
+    selected_ids = request.POST.getlist('incident_ids')
 
     if 'LGU Admin' not in groups:
-
+        security_logger.warning(
+            f"SECURITY ALERT: Unauthorized Bulk Update Attempt | "
+            f"User: {user.username} | "
+            f"IP: {request.META.get('REMOTE_ADDR')} | "
+            f"Target IDs: {selected_ids}"
+        )
         return JsonResponse(
             {
                 'error':
@@ -514,10 +545,6 @@ def bulk_update_status(request):
             },
             status=403
         )
-
-    selected_ids = request.POST.getlist(
-        'incident_ids'
-    )
 
     Incident.objects.filter(
         id__in=selected_ids
@@ -530,3 +557,5 @@ def bulk_update_status(request):
             'success': True
         }
     )
+    
+    

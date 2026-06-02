@@ -3,9 +3,42 @@ Django settings for config project.
 """
 
 from pathlib import Path
+import importlib.util
 import os
 from dotenv import load_dotenv
-import dj_database_url
+import django.utils.translation
+import django.dispatch
+import django.conf.urls
+from django.urls import re_path
+
+# Monkey patch for legacy packages (like admin-honeypot) that use removed 
+# translation functions in Django 4.0+.
+if not hasattr(django.utils.translation, 'ugettext_lazy'):
+    django.utils.translation.ugettext_lazy = django.utils.translation.gettext_lazy
+    django.utils.translation.ugettext = django.utils.translation.gettext
+
+# Monkey patch for Signal to ignore providing_args which was removed in Django 4.0.
+# This is required for legacy packages like admin-honeypot.
+_old_init = django.dispatch.Signal.__init__
+def _new_init(self, *args, **kwargs):
+    kwargs.pop('providing_args', None)
+    _old_init(self, *args, **kwargs)
+django.dispatch.Signal.__init__ = _new_init
+
+# Monkey patch for django.conf.urls.url which was removed in Django 4.0.
+if not hasattr(django.conf.urls, 'url'):
+    django.conf.urls.url = re_path
+
+try:
+    import dj_database_url  # pyright: ignore[reportMissingImports]
+except ModuleNotFoundError:
+    dj_database_url = None
+
+AXES_AVAILABLE = importlib.util.find_spec("axes") is not None
+CORS_HEADERS_AVAILABLE = importlib.util.find_spec("corsheaders") is not None
+ADMIN_HONEYPOT_AVAILABLE = importlib.util.find_spec("admin_honeypot") is not None
+WHITENOISE_AVAILABLE = importlib.util.find_spec("whitenoise") is not None
+CLOUDINARY_AVAILABLE = importlib.util.find_spec("cloudinary") is not None and importlib.util.find_spec("cloudinary_storage") is not None
 
 load_dotenv()
 
@@ -46,12 +79,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # Third-party
-    'corsheaders',
-    'cloudinary',
-    'cloudinary_storage',
 ]
+
+if ADMIN_HONEYPOT_AVAILABLE and 'admin_honeypot' not in INSTALLED_APPS:
+    INSTALLED_APPS.append('admin_honeypot')
+
+if CORS_HEADERS_AVAILABLE and 'corsheaders' not in INSTALLED_APPS:
+    INSTALLED_APPS.append('corsheaders')
+
+if CLOUDINARY_AVAILABLE:
+    INSTALLED_APPS.extend(['cloudinary', 'cloudinary_storage'])
+
+if AXES_AVAILABLE and 'axes' not in INSTALLED_APPS:
+    INSTALLED_APPS.append('axes')
 
 # =========================================================
 # MIDDLEWARE
@@ -59,10 +99,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
-
-    'corsheaders.middleware.CorsMiddleware',
-
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -70,6 +106,15 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+if WHITENOISE_AVAILABLE:
+    MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
+
+if CORS_HEADERS_AVAILABLE and 'corsheaders.middleware.CorsMiddleware' not in MIDDLEWARE:
+    MIDDLEWARE.insert(2, 'corsheaders.middleware.CorsMiddleware')
+
+if AXES_AVAILABLE and 'axes.middleware.AxesMiddleware' not in MIDDLEWARE:
+    MIDDLEWARE.append('axes.middleware.AxesMiddleware')
 
 ROOT_URLCONF = 'config.urls'
 
@@ -95,15 +140,61 @@ TEMPLATES = [
 WSGI_APPLICATION = 'config.wsgi.application'
 
 # =========================================================
+# SECURITY: ACTIVE DEFENSE (django-axes)
+# =========================================================
+AUTHENTICATION_BACKENDS = [
+    'axes.backends.AxesStandaloneBackend',
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+if AXES_AVAILABLE:
+    AUTHENTICATION_BACKENDS.insert(0, 'axes.backends.AxesStandaloneBackend')
+
+AXES_FAILURE_LIMIT = 5  # Lockout after 5 failed attempts
+AXES_COOLOFF_TIME = 0.5 # 30 minutes lockout
+AXES_LOCKOUT_TEMPLATE = None # Can be a custom HTML template
+AXES_RESET_ON_SUCCESS = True
+AXES_LOCKOUT_PARAMETERS = ["ip_address", "username"]
+
+# =========================================================
+# SECURITY: RATE LIMITING (DRF Throttling)
+# =========================================================
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle'
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '10/minute',   # Strict for non-auth public
+        'user': '100/minute'   # Standard for logged-in staff
+    }
+}
+
+# =========================================================
 # DATABASE
 # =========================================================
 
-DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///db.sqlite3',
-        conn_max_age=600
-    )
-}
+if dj_database_url is not None:
+    DATABASES = {
+        'default': dj_database_url.config(
+            default='sqlite:///db.sqlite3',
+            conn_max_age=600
+        )
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 # =========================================================
 # PASSWORD VALIDATION
@@ -133,14 +224,15 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [BASE_DIR / 'disaster_app' / 'static']
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+if WHITENOISE_AVAILABLE:
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # =========================================================
 # MEDIA (Cloudinary or Local)
 # =========================================================
 
-if os.environ.get('CLOUDINARY_URL'):
-    import cloudinary
+if os.environ.get('CLOUDINARY_URL') and CLOUDINARY_AVAILABLE:
+    import cloudinary  # pyright: ignore[reportMissingImports]
     cloudinary.config(
         cloud_name=os.environ.get('CLOUDINARY_NAME'),
         api_key=os.environ.get('CLOUDINARY_API_KEY'),
@@ -226,6 +318,10 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
+        'axes': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
     },
 }
 
@@ -246,12 +342,4 @@ SESSION_CACHE_ALIAS = 'default'
 # DRF + JWT (PHASE 2 CORE REQUIREMENT)
 # =========================================================
 
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
-
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    ),
-}
+# Note: REST_FRAMEWORK settings merged into the block above (lines 128-142)

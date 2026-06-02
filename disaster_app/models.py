@@ -29,6 +29,37 @@ class Incident(models.Model):
 
     def __str__(self):
         return self.title
+    
+# =====================================================
+# EARLY WARNING MODEL
+# =====================================================
+class EarlyWarning(models.Model):
+
+    LEVELS = (
+        ('LOW', 'Low'),
+        ('MEDIUM', 'Medium'),
+        ('HIGH', 'High'),
+        ('CRITICAL', 'Critical'),
+    )
+
+    incident = models.ForeignKey(
+        Incident,
+        on_delete=models.CASCADE
+    )
+
+    warning_level = models.CharField(
+        max_length=20,
+        choices=LEVELS
+    )
+
+    message = models.TextField()
+
+    issued_at = models.DateTimeField(
+        auto_now_add=True
+    )
+
+    def __str__(self):
+        return self.warning_level
 
 
 # =========================================================
