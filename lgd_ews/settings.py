@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 """
 
 from pathlib import Path
-import environ   # <-- add this
+from datetime import timedelta
+import environ
+import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -86,7 +88,6 @@ WSGI_APPLICATION = 'lgd_ews.wsgi.application'
 
 # Use PostgreSQL in production, SQLite for development
 if env('DATABASE_URL', default='').startswith('postgres'):
-    import dj_database_url
     DATABASES = {
         'default': dj_database_url.config(
             default=env('DATABASE_URL'),
@@ -166,7 +167,6 @@ REST_FRAMEWORK = {
 }
 
 # JWT Configuration
-from datetime import timedelta
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
