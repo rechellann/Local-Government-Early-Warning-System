@@ -11,27 +11,39 @@
 <div class="row">
 
 <div class="col-md-3">
-<input type="date"
-       class="form-control"
-       name="start_date">
+<div class="mb-3">
+    <label for="id_start_date" class="form-label">Start Date</label>
+    <input type="date"
+           id="id_start_date"
+           class="form-control"
+           name="start_date">
+</div>
 </div>
 
 <div class="col-md-3">
-<input type="date"
-       class="form-control"
-       name="end_date">
+<div class="mb-3">
+    <label for="id_end_date" class="form-label">End Date</label>
+    <input type="date"
+           id="id_end_date"
+           class="form-control"
+           name="end_date">
+</div>
 </div>
 
 <div class="col-md-3">
+<div class="mb-3">
+    <label for="id_status" class="form-label">Status</label>
+    <select class="form-select"
+            id="id_status"
+            name="status"
+            aria-label="Select incident status">
 
-<select class="form-select"
-        name="status">
+        <option value="">All Status</option>
+        <option value="active">Active</option>
+        <option value="resolved">Resolved</option>
 
-<option value="">All Status</option>
-<option value="active">Active</option>
-<option value="resolved">Resolved</option>
-
-</select>
+    </select>
+</div>
 
 </div>
 
