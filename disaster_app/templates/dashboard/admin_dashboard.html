@@ -1,0 +1,50 @@
+{% extends "base_dashboard.html" %}
+{% load static %}
+
+{% block page_title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+
+<div class="grid">
+
+    <div class="card blue">
+        <h2>128</h2>
+        <p>Total Incidents</p>
+    </div>
+
+    <div class="card red">
+        <h2>35</h2>
+        <p>Active Incidents</p>
+    </div>
+
+    <div class="card orange">
+        <h2>8</h2>
+        <p>Warnings</p>
+    </div>
+
+    <div class="card green">
+        <h2>42</h2>
+        <p>Sensors Online</p>
+    </div>
+
+</div>
+
+<div class="panel">
+
+    <div class="box">
+        <h3>Hazard Overview</h3>
+        <div class="fake-chart"></div>
+    </div>
+
+    <div class="box">
+        <h3>Recent Incidents</h3>
+        <ul>
+            <li>Flood - Brgy. San Isidro</li>
+            <li>Landslide - Brgy. Mabolo</li>
+            <li>Fire - Brgy. Poblacion</li>
+        </ul>
+    </div>
+
+</div>
+
+{% endblock %}

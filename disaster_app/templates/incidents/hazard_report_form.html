@@ -1,0 +1,34 @@
+{% extends 'base_dashboard.html' %}
+
+{% block content %}
+
+<h3>Create Incident Report</h3>
+
+<form method="POST"
+      enctype="multipart/form-data">
+
+{% csrf_token %}
+
+{{ form.as_p }}
+
+<h5>Hazard Images</h5>
+
+{{ formset.management_form }}
+
+{% for image_form in formset %}
+
+<div class="border p-3 mb-3 rounded">
+
+{{ image_form.as_p }}
+
+</div>
+
+{% endfor %}
+
+<button type="submit" class="btn btn-success">
+Submit Report
+</button>
+
+</form>
+
+{% endblock %}

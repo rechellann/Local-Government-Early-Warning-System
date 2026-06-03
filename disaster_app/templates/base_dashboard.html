@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}LGU System{% endblock %}</title>
+
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+        <div class="logo-box">
+            <img src="{% static 'images/logo.png' %}" alt="LGU Logo" title="LGU Logo">
+            <div>
+                <strong>LGU Hazard</strong><br>
+                Management System
+            </div>
+        </div>
+
+        <a href="{% url 'admin_dashboard' %}"><i class="fas fa-chart-line"></i> Dashboard</a>
+        <a href="{% url 'incident_management' %}"><i class="fas fa-bolt"></i> Incidents</a>
+        <a href="{% url 'sensor_monitoring' %}"><i class="fas fa-satellite-dish"></i> Sensors</a>
+        <a href="{% url 'reports_analytics' %}"><i class="fas fa-chart-bar"></i> Reports</a>
+        <a href="{% url 'audit_log' %}"><i class="fas fa-shield-alt"></i> Audit Log</a>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+
+        <div class="topbar">
+            <h2>{% block page_title %}Dashboard{% endblock %}</h2>
+        </div>
+
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{% static 'js/dashboard.js' %}"></script>
+</body>
+</html>

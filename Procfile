@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn lgd_ews.wsgi:application
+web: gunicorn config.wsgi:application --bind 0.0.0.0:$PORT

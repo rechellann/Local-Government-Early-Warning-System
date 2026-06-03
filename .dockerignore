@@ -1,22 +1,74 @@
+# Git
 .git
 .gitignore
-.github
+.gitattributes
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
 .vscode
 .idea
-venv
-.env
-*.sqlite3
-*.pyc
-__pycache__
+*.swp
+*.swo
+*~
 .DS_Store
-Thumbs.db
-*.log
-.coverage
-htmlcov
-dist
-build
-*.egg-info
+
+# Testing
 .pytest_cache
-.mypy_cache
-media
-staticfiles
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+logs/
+*.log
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Static & Media
+staticfiles/
+media/
+
+# Node (if used for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
