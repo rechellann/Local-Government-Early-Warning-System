@@ -8,28 +8,52 @@ from rest_framework_simplejwt.views import (
 
 urlpatterns = [
 
-    # =========================
-    # UI PAGES
-    # =========================
     path(
-        '',
-        views.dashboard,
-        name='dashboard'
+        'admin-dashboard/',
+        views.admin_dashboard,
+        name='admin_dashboard'
     ),
 
     path(
-        'incident/create/',
-        views.create_incident,
-        name='create_incident'
+        'dispatcher-dashboard/',
+        views.dispatcher_dashboard,
+        name='dispatcher_dashboard'
     ),
 
-    # =========================
-    # SYSTEM HEALTH
-    # =========================
     path(
-        'health/',
-        views.health_check,
-        name='health_check'
+        'public-dashboard/',
+        views.public_dashboard,
+        name='public_dashboard'
+    ),
+
+    path(
+        'incidents/',
+        views.incident_management,
+        name='incident_management'
+    ),
+
+    path(
+        'hazard-report/',
+        views.hazard_report_form,
+        name='hazard_report_form'
+    ),
+
+    path(
+        'sensors/',
+        views.sensor_monitoring,
+        name='sensor_monitoring'
+    ),
+
+    path(
+        'reports/',
+        views.reports_analytics,
+        name='reports_analytics'
+    ),
+
+    path(
+        'audit-log/',
+        views.audit_log,
+        name='audit_log'
     ),
 
     # =========================
@@ -45,6 +69,18 @@ urlpatterns = [
         'api/incidents/create/',
         views.incident_create_api,
         name='incident_create_api'
+    ),
+
+    path(
+        'api/incidents/<int:pk>/',
+        views.incident_detail_api,
+        name='incident_detail_api'
+    ),
+
+    path(
+        'api/incidents/bulk-update-status/',
+        views.bulk_update_status,
+        name='bulk_update_status'
     ),
 
     # =========================
@@ -77,18 +113,9 @@ urlpatterns = [
         name='hazard_create_api'
     ),
 
-    # =========================
-    # JWT AUTH
-    # =========================
     path(
-        'api/token/',
-        TokenObtainPairView.as_view(),
-        name='token_obtain_pair'
-    ),
-
-    path(
-        'api/token/refresh/',
-        TokenRefreshView.as_view(),
-        name='token_refresh'
+        'health-check/',
+        views.health_check,
+        name='health_check'
     ),
 ]

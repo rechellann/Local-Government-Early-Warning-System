@@ -1425,3 +1425,19 @@ INFO 2026-06-02 19:03:43,836 basehttp "POST /api/token/ HTTP/1.1" 200 489
 WARNING 2026-06-02 19:04:05,646 log Unauthorized: /api/hazards/
 WARNING 2026-06-02 19:04:05,646 basehttp "GET /api/hazards/ HTTP/1.1" 401 172
 INFO 2026-06-02 19:06:47,623 basehttp "GET /api/hazards/ HTTP/1.1" 200 394
+INFO 2026-06-03 21:03:00,725 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 21:14:46,045 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 22:25:41,678 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 22:25:47,782 basehttp code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+ERROR 2026-06-03 22:25:47,791 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-03 22:25:47,801 basehttp code 400, message Bad request version ('N\x80\x18xøÖ§hfh\x9dà\x06¡av\x14C,\x15')
+ERROR 2026-06-03 22:25:47,805 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-03 22:25:58,884 basehttp code 400, message Bad request version ('ÃAßt\x8fÁr\x9a\x82Ö÷\x03D\x02Ab')
+ERROR 2026-06-03 22:25:58,886 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-03 22:25:58,930 basehttp code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x17\x00\x00\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x00')
+ERROR 2026-06-03 22:25:58,960 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-03 22:33:18,074 autoreload Watching for file changes with StatReloader
+INFO 2026-06-03 22:33:28,001 basehttp code 400, message Bad request version ('ÝI«4\x89}Euø?\x8f\x10®')
+ERROR 2026-06-03 22:33:28,253 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2026-06-03 22:33:28,593 basehttp code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sjj\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x00')
+ERROR 2026-06-03 22:33:28,614 basehttp You're accessing the development server over HTTPS, but it only supports HTTP.

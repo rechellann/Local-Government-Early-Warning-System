@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
 from django.core.cache import cache
@@ -36,85 +36,55 @@ def get_user_roles(user):
     )
 
 
-# =========================================================
-# DASHBOARD (UI)
-# =========================================================
-def dashboard(request):
-
-    incidents = Incident.objects.all().order_by(
-        '-created_at'
-    )
-
+def admin_dashboard(request):
     return render(
         request,
-        'dashboard.html',
-        {
-            'incidents': incidents
-        }
+        'dashboard/admin_dashboard.html'
     )
 
-
-# =========================================================
-# MY REPORTS
-# =========================================================
-def my_reports(request):
-
-    incidents = Incident.objects.filter(
-        created_by=request.user
-    ).order_by('-created_at')
-
+def dispatcher_dashboard(request):
     return render(
         request,
-        'dashboard.html',
-        {
-            'incidents': incidents
-        }
+        'dashboard/dispatcher_dashboard.html'
     )
 
-
-# =========================================================
-# CREATE INCIDENT (UI)
-# =========================================================
-def create_incident(request):
-
-    if request.method == 'POST':
-
-        form = IncidentForm(request.POST)
-
-        if form.is_valid():
-
-            incident = form.save(
-                commit=False
-            )
-
-            incident.created_by = request.user
-            incident.save()
-
-            formset = HazardImageFormSet(
-                request.POST,
-                request.FILES,
-                instance=incident
-            )
-
-            if formset.is_valid():
-                formset.save()
-
-            return redirect('dashboard')
-
-    else:
-
-        form = IncidentForm()
-        formset = HazardImageFormSet()
-
+def public_dashboard(request):
     return render(
         request,
-        'incident/create.html',
-        {
-            'form': form,
-            'formset': formset
-        }
+        'dashboard/public_dashboard.html'
     )
 
+
+
+def incident_management(request):
+    return render(
+        request,
+        'incidents/incident_management.html'
+    )
+
+def hazard_report_form(request):
+    return render(
+        request,
+        'incidents/hazard_report_form.html'
+    )
+
+def sensor_monitoring(request):
+    return render(
+        request,
+        'sensors/sensor_monitoring.html'
+    )
+
+def reports_analytics(request):
+    return render(
+        request,
+        'reports/reports_analytics.html'
+    )
+
+def audit_log(request):
+    return render(
+        request,
+        'security/audit_log.html'
+    )
 
 # =========================================================
 # INCIDENT LIST API
@@ -202,6 +172,14 @@ def incident_detail_api(request, pk):
 
     user = request.user
     groups = get_user_roles(user)
+
+    if not groups:
+        return Response(
+            {
+                "error": "No role assigned"
+            },
+            status=403
+        )
 
     try:
 
@@ -514,6 +492,14 @@ def health_check(request):
 # =========================================================
 @require_http_methods(["POST"])
 def bulk_update_status(request):
+
+    if not request.user.is_authenticated:
+        return JsonResponse(
+            {
+                'error': 'Authentication required'
+            },
+            status=401
+        )
 
     groups = get_user_roles(
         request.user

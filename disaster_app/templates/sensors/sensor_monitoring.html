@@ -1,0 +1,29 @@
+{% extends 'base_dashboard.html' %}
+
+{% block content %}
+
+<h3>Sensor Monitoring</h3>
+
+<div class="row">
+
+{% for sensor in sensors %}
+
+<div class="col-md-3">
+
+<div class="stat-card">
+
+<h5>{{ sensor.name }}</h5>
+
+<h2>{{ sensor.value }}</h2>
+
+<p>{{ sensor.status }}</p>
+
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}

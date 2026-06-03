@@ -1,0 +1,52 @@
+{% extends 'base_dashboard.html' %}
+
+{% block content %}
+
+<h3>Incident Management</h3>
+
+<div class="dashboard-card">
+
+<form method="GET">
+
+<div class="row">
+
+<div class="col-md-3">
+<input type="date"
+       class="form-control"
+       name="start_date">
+</div>
+
+<div class="col-md-3">
+<input type="date"
+       class="form-control"
+       name="end_date">
+</div>
+
+<div class="col-md-3">
+
+<select class="form-select"
+        name="status">
+
+<option value="">All Status</option>
+<option value="active">Active</option>
+<option value="resolved">Resolved</option>
+
+</select>
+
+</div>
+
+<div class="col-md-3">
+
+<button type="submit" class="btn btn-primary">
+Filter
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+{% endblock %}
