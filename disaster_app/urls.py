@@ -8,6 +8,12 @@ from rest_framework_simplejwt.views import (
 )
 
 urlpatterns = [
+    path('accounts/', include('django.contrib.auth.urls')),
+    path(
+    '',
+    views.login_view,
+    name='login'
+),
     # Honeypot: Trap attackers attempting to find the admin panel
     path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
     # Real Admin (Moved for security)

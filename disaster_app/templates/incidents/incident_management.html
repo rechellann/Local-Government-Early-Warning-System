@@ -1,64 +1,23 @@
-{% extends 'base_dashboard.html' %}
+{% extends "base_dashboard.html" %}
+
+{% block page_title %}Incident Management{% endblock %}
 
 {% block content %}
 
-<h3>Incident Management</h3>
+<h3>All Incidents</h3>
 
-<div class="dashboard-card">
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Type</th>
+        <th>Status</th>
+    </tr>
 
-<form method="GET">
-
-<div class="row">
-
-<div class="col-md-3">
-<div class="mb-3">
-    <label for="id_start_date" class="form-label">Start Date</label>
-    <input type="date"
-           id="id_start_date"
-           class="form-control"
-           name="start_date">
-</div>
-</div>
-
-<div class="col-md-3">
-<div class="mb-3">
-    <label for="id_end_date" class="form-label">End Date</label>
-    <input type="date"
-           id="id_end_date"
-           class="form-control"
-           name="end_date">
-</div>
-</div>
-
-<div class="col-md-3">
-<div class="mb-3">
-    <label for="id_status" class="form-label">Status</label>
-    <select class="form-select"
-            id="id_status"
-            name="status"
-            aria-label="Select incident status">
-
-        <option value="">All Status</option>
-        <option value="active">Active</option>
-        <option value="resolved">Resolved</option>
-
-    </select>
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<button type="submit" class="btn btn-primary">
-Filter
-</button>
-
-</div>
-
-</div>
-
-</form>
-
-</div>
+    <tr>
+        <td>INC-001</td>
+        <td>Flood</td>
+        <td>Active</td>
+    </tr>
+</table>
 
 {% endblock %}

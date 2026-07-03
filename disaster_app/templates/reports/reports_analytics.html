@@ -1,34 +1,12 @@
-{% extends 'base_dashboard.html' %}
+{% extends "base_dashboard.html" %}
+
+{% block page_title %}Reports & Analytics{% endblock %}
 
 {% block content %}
 
-<h3>Reports & Analytics</h3>
-
-<div class="dashboard-card">
-
-<canvas id="reportChart"></canvas>
-
+<div class="box">
+    <h3>Analytics</h3>
+    <div class="fake-chart"></div>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-
-new Chart(
-document.getElementById('reportChart'),
-{
-type:'line',
-
-data:{
-labels:['Jan','Feb','Mar','Apr'],
-datasets:[{
-label:'Incidents',
-data:[10,15,8,22]
-}]
-}
-}
-);
-
-</script>
 
 {% endblock %}

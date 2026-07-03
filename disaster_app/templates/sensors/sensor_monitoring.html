@@ -1,28 +1,20 @@
-{% extends 'base_dashboard.html' %}
+{% extends "base_dashboard.html" %}
+
+{% block page_title %}Sensor Monitoring{% endblock %}
 
 {% block content %}
 
-<h3>Sensor Monitoring</h3>
+<div class="grid">
 
-<div class="row">
+    <div class="card green">
+        <h2>Rainfall</h2>
+        <p>Normal</p>
+    </div>
 
-{% for sensor in sensors %}
-
-<div class="col-md-3">
-
-<div class="stat-card">
-
-<h5>{{ sensor.name }}</h5>
-
-<h2>{{ sensor.value }}</h2>
-
-<p>{{ sensor.status }}</p>
-
-</div>
-
-</div>
-
-{% endfor %}
+    <div class="card red">
+        <h2>Water Level</h2>
+        <p>High</p>
+    </div>
 
 </div>
 

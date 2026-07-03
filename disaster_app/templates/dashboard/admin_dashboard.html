@@ -1,234 +1,50 @@
-{% extends 'base_dashboard.html' %}
+{% extends "base_dashboard.html" %}
+{% load static %}
+
+{% block page_title %}Admin Dashboard{% endblock %}
 
 {% block content %}
 
-<div class="topbar">
-    <h3><b>LGU ADMIN DASHBOARD</b></h3>
+<div class="grid">
 
-    <i class="fas fa-bell"></i>
-</div>
+    <div class="card blue">
+        <h2>128</h2>
+        <p>Total Incidents</p>
+    </div>
 
-<div class="row">
+    <div class="card red">
+        <h2>35</h2>
+        <p>Active Incidents</p>
+    </div>
 
-<div class="col-md-3">
+    <div class="card orange">
+        <h2>8</h2>
+        <p>Warnings</p>
+    </div>
 
-<div class="card stats-card p-3">
-
-<small>Total Incidents</small>
-
-<div class="d-flex justify-content-between">
-
-<div class="value">128</div>
-
-<div class="icon bg-primary text-white">
-<i class="fas fa-water"></i>
-</div>
-
-</div>
+    <div class="card green">
+        <h2>42</h2>
+        <p>Sensors Online</p>
+    </div>
 
 </div>
 
-</div>
+<div class="panel">
 
-<div class="col-md-3">
+    <div class="box">
+        <h3>Hazard Overview</h3>
+        <div class="fake-chart"></div>
+    </div>
 
-<div class="card stats-card p-3">
-
-<small>Active Incidents</small>
-
-<div class="d-flex justify-content-between">
-
-<div class="value">35</div>
-
-<div class="icon bg-danger text-white">
-<i class="fas fa-fire"></i>
-</div>
-
-</div>
+    <div class="box">
+        <h3>Recent Incidents</h3>
+        <ul>
+            <li>Flood - Brgy. San Isidro</li>
+            <li>Landslide - Brgy. Mabolo</li>
+            <li>Fire - Brgy. Poblacion</li>
+        </ul>
+    </div>
 
 </div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="card stats-card p-3">
-
-<small>Active Warnings</small>
-
-<div class="d-flex justify-content-between">
-
-<div class="value">8</div>
-
-<div class="icon bg-warning text-white">
-<i class="fas fa-bell"></i>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="col-md-3">
-
-<div class="card stats-card p-3">
-
-<small>Sensors Online</small>
-
-<div class="d-flex justify-content-between">
-
-<div class="value">42</div>
-
-<div class="icon bg-success text-white">
-<i class="fas fa-satellite-dish"></i>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="row mt-4">
-
-<div class="col-md-6">
-
-<div class="card p-4">
-
-<h5>Hazard Status Overview</h5>
-
-<canvas id="hazardChart"></canvas>
-
-</div>
-
-</div>
-
-<div class="col-md-6">
-
-<div class="card p-4">
-
-<h5>Bulk Hazard Status Update</h5>
-
-<div class="mb-3">
-    <label for="bulk_hazard_type" class="form-label">Hazard Type</label>
-    <select id="bulk_hazard_type" name="hazard_type" class="form-select mb-3" aria-label="Select hazard type">
-        <option value="">Select Hazard Type</option>
-        <option value="flood">Flood</option>
-        <option value="landslide">Landslide</option>
-        <option value="storm">Storm</option>
-    </select>
-</div>
-
-<div class="mb-3">
-    <label for="bulk_hazard_status" class="form-label">New Status</label>
-    <select id="bulk_hazard_status" name="new_status" class="form-select mb-3" aria-label="Select new hazard status">
-        <option value="">Select New Status</option>
-        <option value="active">Active</option>
-        <option value="monitoring">Monitoring</option>
-        <option value="resolved">Resolved</option>
-    </select>
-</div>
-
-<button type="button" class="btn btn-primary">
-Update Selected
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="row mt-4">
-
-<div class="col-md-8">
-
-<div class="card p-4">
-
-<h5>Recent Incidents</h5>
-
-<table class="table">
-
-<thead>
-<tr>
-<th>ID</th>
-<th>Type</th>
-<th>Location</th>
-<th>Status</th>
-</tr>
-</thead>
-
-<tbody>
-
-<tr>
-<td>INC-001</td>
-<td>Flood</td>
-<td>San Isidro</td>
-<td><span class="badge bg-success">Active</span></td>
-</tr>
-
-<tr>
-<td>INC-002</td>
-<td>Landslide</td>
-<td>Magsaysay</td>
-<td><span class="badge bg-warning">Monitoring</span></td>
-</tr>
-
-</tbody>
-
-</table>
-
-</div>
-
-</div>
-
-<div class="col-md-4">
-
-<div class="card p-4">
-
-<h5>Incident Trend</h5>
-
-<canvas id="trendChart"></canvas>
-
-</div>
-
-</div>
-
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<script>
-
-new Chart(
-document.getElementById('hazardChart'),
-{
-type:'doughnut',
-data:{
-labels:['High','Medium','Low','Normal'],
-datasets:[{
-data:[15,28,45,40]
-}]
-}
-}
-);
-
-new Chart(
-document.getElementById('trendChart'),
-{
-type:'line',
-data:{
-labels:['Mon','Tue','Wed','Thu','Fri','Sat'],
-datasets:[{
-data:[5,8,12,7,10,6]
-}]
-}
-}
-);
-
-</script>
 
 {% endblock %}

@@ -1,36 +1,13 @@
-{% extends 'base_dashboard.html' %}
+{% extends "base_dashboard.html" %}
+{% load static %}
+
+{% block page_title %}Public Dashboard{% endblock %}
 
 {% block content %}
 
-<h3 class="page-title">
-PUBLIC VIEWER DASHBOARD
-</h3>
-
-<div class="warning-panel">
-
-<h5>ACTIVE WARNINGS & ADVISORIES</h5>
-
-<div class="alert alert-warning">
-
-<strong>Heavy Rainfall Warning</strong>
-
-<p>
-Expected heavy rainfall in several areas.
-Possible flooding in low-lying regions.
-</p>
-
-</div>
-
-<div class="alert alert-warning">
-
-<strong>Flood Advisory</strong>
-
-<p>
-Moderate flooding expected in rivers and creeks.
-</p>
-
-</div>
-
+<div class="card red full">
+    <h2>⚠ Active Warnings</h2>
+    <p>Heavy rainfall expected in your area</p>
 </div>
 
 {% endblock %}

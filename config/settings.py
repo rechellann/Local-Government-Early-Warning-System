@@ -143,18 +143,28 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # SECURITY: ACTIVE DEFENSE (django-axes)
 # =========================================================
 AUTHENTICATION_BACKENDS = [
-    'axes.backends.AxesStandaloneBackend',
     'django.contrib.auth.backends.ModelBackend',
 ]
 
 if AXES_AVAILABLE:
-    AUTHENTICATION_BACKENDS.insert(0, 'axes.backends.AxesStandaloneBackend')
+    AUTHENTICATION_BACKENDS.insert(
+        0,
+        'axes.backends.AxesStandaloneBackend'
+    )
 
 AXES_FAILURE_LIMIT = 5  # Lockout after 5 failed attempts
 AXES_COOLOFF_TIME = 0.5 # 30 minutes lockout
 AXES_LOCKOUT_TEMPLATE = None # Can be a custom HTML template
 AXES_RESET_ON_SUCCESS = True
 AXES_LOCKOUT_PARAMETERS = ["ip_address", "username"]
+
+# =========================================================
+# LOGIN SETTINGS
+# =========================================================
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'admin_dashboard'
+LOGOUT_REDIRECT_URL = 'login'
 
 # =========================================================
 # SECURITY: RATE LIMITING (DRF Throttling)
